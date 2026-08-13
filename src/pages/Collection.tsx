@@ -103,11 +103,11 @@ export default function Collection() {
   return (
     <>
       <Helmet>
-        <title>{collection ? `${collection.title} | JerseyVault` : 'Cargando... | JerseyVault'}</title>
+        <title>{collection ? `${collection.title} | Club Kit` : 'Cargando... | Club Kit'}</title>
         {collection && (
           <>
             <meta name="description" content={collection.subtitle} />
-            <meta property="og:title" content={`${collection.title} | JerseyVault`} />
+            <meta property="og:title" content={`${collection.title} | Club Kit`} />
             <meta property="og:description" content={collection.subtitle} />
           </>
         )}

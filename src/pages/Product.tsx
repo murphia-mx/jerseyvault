@@ -94,10 +94,10 @@ export default function Product() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 animate-fade-in">
       <Helmet>
-        <title>{product.nombre} | JerseyVault</title>
-        <meta name="description" content={`Compra el jersey ${product.nombre} del ${product.equipo} en JerseyVault. ${product.tipo}. Envío garantizado a todo el mundo.`} />
-        <meta property="og:title" content={`${product.nombre} | JerseyVault`} />
-        <meta property="og:description" content={`Compra el jersey ${product.nombre} del ${product.equipo} en JerseyVault. ${product.tipo}.`} />
+        <title>{product.nombre} | Club Kit</title>
+        <meta name="description" content={`Compra el jersey ${product.nombre} del ${product.equipo} en Club Kit. ${product.tipo}. Envío garantizado a todo el mundo.`} />
+        <meta property="og:title" content={`${product.nombre} | Club Kit`} />
+        <meta property="og:description" content={`Compra el jersey ${product.nombre} del ${product.equipo} en Club Kit. ${product.tipo}.`} />
         {product.thumbnail && <meta property="og:image" content={product.thumbnail} />}
       </Helmet>
 

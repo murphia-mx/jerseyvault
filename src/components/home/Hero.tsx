@@ -25,7 +25,7 @@ export function HomeHero() {
         
         <div className="animate-fade-up flex flex-col gap-1">
           <p className="text-white/60 text-sm md:text-base font-bold tracking-[0.3em] uppercase mb-2">
-            JerseyVault Colección 24/25
+            Club Kit Colección 24/25
           </p>
           <h1 className="text-[clamp(4rem,12vw,10rem)] font-black leading-[0.85] tracking-tighter text-white drop-shadow-2xl uppercase">
             Cultura

@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import { MessageCircle, Trash2 } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { useCart } from '../../hooks/useCart';
+import { DisclaimerModal } from '../ui/DisclaimerModal';
 
 export function CartSummary() {
-  const { totalItems, requestQuote, clearCart, items } = useCart();
+  const { totalItems, clearCart, items } = useCart();
+  const [isDisclaimerOpen, setIsDisclaimerOpen] = useState(false);
 
   if (items.length === 0) return null;
 
@@ -36,13 +39,15 @@ export function CartSummary() {
         <Button
           size="lg"
           fullWidth
-          onClick={requestQuote}
+          onClick={() => setIsDisclaimerOpen(true)}
           className="gap-2 bg-[#25D366] hover:bg-[#20bd5a] focus:ring-[#25D366] text-white shadow-lg shadow-green-900/20"
         >
           <MessageCircle className="w-5 h-5" />
           Solicitar cotización por WhatsApp
         </Button>
       </div>
+
+      <DisclaimerModal isOpen={isDisclaimerOpen} onClose={() => setIsDisclaimerOpen(false)} />
     </div>
   );
 }

@@ -33,7 +33,7 @@ export default function CartDrawer() {
     <>
       {isOpen && (
         <Helmet>
-          <title>Carrito | JerseyVault</title>
+          <title>Carrito | Club Kit</title>
         </Helmet>
       )}
 

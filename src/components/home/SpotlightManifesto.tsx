@@ -16,7 +16,7 @@ export function SpotlightManifesto() {
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center flex flex-col items-center">
         <span className="text-[10px] font-bold text-white/50 uppercase tracking-widest mb-6 block">
-          Manifiesto JerseyVault
+          Manifiesto Club Kit
         </span>
         
         <h2 className="text-3xl md:text-5xl lg:text-7xl font-black text-white leading-[1.1] mb-8 uppercase tracking-tight">

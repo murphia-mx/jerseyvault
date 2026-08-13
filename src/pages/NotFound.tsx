@@ -7,7 +7,7 @@ export default function NotFound() {
   return (
     <div className="min-h-[70vh] flex flex-col items-center justify-center text-center px-4 animate-fade-in">
       <Helmet>
-        <title>Página no encontrada | JerseyVault</title>
+        <title>Página no encontrada | Club Kit</title>
         <meta name="description" content="La página que buscas no existe." />
       </Helmet>
       <div className="w-24 h-24 rounded-full bg-gray-50 dark:bg-white/5 flex items-center justify-center mb-8">

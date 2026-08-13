@@ -37,8 +37,8 @@ export default function Wishlist() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 animate-fade-up">
       <Helmet>
-        <title>Favoritos | JerseyVault</title>
-        <meta name="description" content="Guarda y organiza tus jerseys de fútbol favoritos en tu colección personal de JerseyVault." />
+        <title>Favoritos | Club Kit</title>
+        <meta name="description" content="Guarda y organiza tus jerseys de fútbol favoritos en tu colección personal de Club Kit." />
       </Helmet>
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
         <div>

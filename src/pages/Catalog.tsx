@@ -208,9 +208,9 @@ export default function Catalog() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 animate-fade-in">
       <Helmet>
-        <title>{liga ? `${liga} | Catálogo | JerseyVault` : 'Catálogo | JerseyVault'}</title>
+        <title>{liga ? `${liga} | Catálogo | Club Kit` : 'Catálogo | Club Kit'}</title>
         <meta name="description" content={`Explora nuestra colección completa de jerseys oficiales${liga ? ` de la ${liga}` : ''}. Las mejores equipaciones en versión jugador y aficionado.`} />
-        <meta property="og:title" content={liga ? `${liga} | Catálogo | JerseyVault` : 'Catálogo | JerseyVault'} />
+        <meta property="og:title" content={liga ? `${liga} | Catálogo | Club Kit` : 'Catálogo | Club Kit'} />
       </Helmet>
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
         <SectionTitle

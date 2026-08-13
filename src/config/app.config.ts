@@ -1,6 +1,6 @@
 export const APP_CONFIG = {
   store: {
-    name: "JerseyVault",
+    name: "Club Kit",
     tagline: "La mejor colección de camisetas de fútbol",
     description:
       "Más de 2,000 camisetas de clubes y selecciones de todo el mundo.",
@@ -17,14 +17,13 @@ export const APP_CONFIG = {
   tallas: ["S", "M", "L", "XL"] as const, // ← Ampliar aquí para futuras versiones
 
   contact: {
-    email: "jerseyvaultcontact@gmail.com", // ← Actualizar con email real
     whatsapp: "5219991215998", // ← Mismo número que arriba
   },
 
   social: {
-    instagram: "https://instagram.com/jerseyvault_mid", // ← Actualizar
-    facebook: "https://jerseyvaultstore.netlify.app/404", // ← Actualizar
-    tiktok: "https://jerseyvaultstore.netlify.app/404", // ← Actualizar
+    instagram: "https://instagram.com/Club Kit_mid", // ← Actualizar
+    facebook: "https://Club Kitstore.netlify.app/404", // ← Actualizar
+    tiktok: "https://Club Kitstore.netlify.app/404", // ← Actualizar
   },
 
   catalog: {

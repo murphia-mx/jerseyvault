@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <HelmetProvider>
       <BrowserRouter>
-        <ThemeProvider defaultTheme="system" storageKey="jerseyvault-ui-theme">
+        <ThemeProvider defaultTheme="system" storageKey="Club Kit-ui-theme">
           <App />
         </ThemeProvider>
       </BrowserRouter>

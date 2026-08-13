@@ -7,8 +7,6 @@ import { APP_CONFIG } from "../../config/app.config";
 import { cn } from "../../utils/cn";
 import { GlobalSearch } from "./GlobalSearch";
 import { ThemeToggle } from "./ThemeToggle";
-import logoDark from "../../assets/images/logo-dark-mode.png";
-import logoLight from "../../assets/images/logo-light-mode.png";
 
 const COLLECTIONS = [
   { id: "retro", name: "Retro Collection" },
@@ -101,18 +99,6 @@ export default function Navbar() {
               to="/"
               className="flex items-center gap-2.5 flex-shrink-0 transition-opacity hover:opacity-80 group"
             >
-              <img
-                src={logoLight}
-                alt=""
-                aria-hidden="true"
-                className="h-15 w-auto object-contain dark:hidden group-hover:scale-105 transition-transform duration-300"
-              />
-              <img
-                src={logoDark}
-                alt=""
-                aria-hidden="true"
-                className="h-15 w-auto object-contain hidden dark:block group-hover:scale-105 transition-transform duration-300"
-              />
               <span className="text-xl font-black tracking-tighter text-gray-900 dark:text-white transition-colors">
                 {APP_CONFIG.store.name}
               </span>

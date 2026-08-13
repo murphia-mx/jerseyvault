@@ -1,14 +1,14 @@
 import { APP_CONFIG } from '../config/app.config';
 import type { CartItem } from '../types/cart';
 
-/** Base URL for JerseyVault product links in WhatsApp messages. */
-const STORE_BASE_URL = 'https://jerseyvault.netlify.app';
+/** Base URL for Club Kit product links in WhatsApp messages. */
+const STORE_BASE_URL = 'https://Club Kit.netlify.app';
 
 /**
  * Builds the WhatsApp quote request message.
  *
  * Each line includes: product name, team, league, size, quantity,
- * and a link to the JerseyVault product page.
+ * and a link to the Club Kit product page.
  *
  * NOTE: product.url (Yupoo) is intentionally NOT included — the customer
  * should never see or interact with the supplier's platform directly.
@@ -36,7 +36,7 @@ ${productUrl}`;
 
   return `¡Hola! 👋
 
-Me gustaría solicitar una cotización para el siguiente pedido de JerseyVault.
+Me gustaría solicitar una cotización para el siguiente pedido de Club Kit.
 
 🛒 Pedido
 

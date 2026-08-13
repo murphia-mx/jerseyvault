@@ -17,10 +17,10 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full animate-fade-in">
       <Helmet>
-        <title>JerseyVault | Jerseys de Fútbol Premium</title>
-        <meta name="description" content="Explora una colección premium de jerseys de fútbol de clubes y selecciones. Encuentra modelos Home, Away, Retro y Player Version en JerseyVault." />
-        <meta property="og:title" content="JerseyVault | Jerseys de Fútbol Premium" />
-        <meta property="og:description" content="Explora una colección premium de jerseys de fútbol de clubes y selecciones. Encuentra modelos Home, Away, Retro y Player Version en JerseyVault." />
+        <title>Club Kit | Jerseys de Fútbol Premium</title>
+        <meta name="description" content="Explora una colección premium de jerseys de fútbol de clubes y selecciones. Encuentra modelos Home, Away, Retro y Player Version en Club Kit." />
+        <meta property="og:title" content="Club Kit | Jerseys de Fútbol Premium" />
+        <meta property="og:description" content="Explora una colección premium de jerseys de fútbol de clubes y selecciones. Encuentra modelos Home, Away, Retro y Player Version en Club Kit." />
       </Helmet>
       <HomeHero />
       <BentoDiscovery />
