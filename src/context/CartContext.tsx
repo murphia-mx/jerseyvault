@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
 import type { CartItem, CartState } from '../types/cart';
 import type { Talla } from '../config/app.config';
+import { getProducts } from '../services/catalog.service';
 
 interface CartContextType extends CartState {
   addItem: (item: CartItem) => void;
@@ -29,10 +30,32 @@ export function CartProvider({ children }: { children: ReactNode }) {
     return [];
   });
   const [isOpen, setIsOpen] = useState(false);
+  const [hadSavedItems] = useState(() => items.length > 0);
 
   useEffect(() => {
     localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(items));
   }, [items]);
+
+  // A saved cart may hold products that have since left the catalog (no longer
+  // available at the supplier): drop them, and refresh the rest (e.g. a repaired photo).
+  useEffect(() => {
+    if (!hadSavedItems) return;
+    let active = true;
+    getProducts()
+      .then(products => {
+        if (!active) return;
+        const byId = new Map(products.map(p => [p.id, p]));
+        setItems(current =>
+          current
+            .filter(item => byId.has(item.product.id))
+            .map(item => ({ ...item, product: byId.get(item.product.id)! }))
+        );
+      })
+      .catch(err => console.error('Failed to sync cart with catalog', err));
+    return () => {
+      active = false;
+    };
+  }, [hadSavedItems]);
 
   const addItem = (newItem: CartItem) => {
     setItems(current => {

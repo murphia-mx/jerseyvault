@@ -14,7 +14,7 @@ export default function Footer() {
           
           {/* Brand & Newsletter Mockup */}
           <div className="md:col-span-5 lg:col-span-4 flex flex-col gap-6">
-            <Link to="/" className="text-3xl font-black tracking-tighter text-white">
+            <Link to="/catalogo" className="text-3xl font-black tracking-tighter text-white">
               {APP_CONFIG.store.name}
             </Link>
             <p className="text-sm text-gray-400 leading-relaxed font-light">
@@ -55,6 +55,7 @@ export default function Footer() {
               </h3>
               <ul className="flex flex-col gap-3">
                 <li><Link to="/catalogo" className="text-sm text-gray-500 hover:text-white transition-colors">Catálogo Completo</Link></li>
+                <li><Link to="/catalogo/Selecciones" className="text-sm text-gray-500 hover:text-white transition-colors">Selecciones nacionales</Link></li>
                 <li><Link to="/coleccion/premier-league" className="text-sm text-gray-500 hover:text-white transition-colors">Premier League</Link></li>
                 <li><Link to="/coleccion/la-liga" className="text-sm text-gray-500 hover:text-white transition-colors">La Liga</Link></li>
                 <li><Link to="/coleccion/serie-a" className="text-sm text-gray-500 hover:text-white transition-colors">Serie A</Link></li>

@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:catalog": "node --test \"scripts/catalog-check/tests/*.test.ts\" && tsc -p tsconfig.scripts.json",
+    "catalog:check": "node scripts/catalog-check/run.ts",
+    "catalog:build": "node scripts/catalog-check/build-public.ts",
+    "catalog:import-selecciones": "node scripts/catalog-check/import-national-teams.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
@@ -36,5 +40,8 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.62.0",
     "vite": "^8.1.1"
+  },
+  "catalogCheck": {
+    "publicCatalog": "src/data/catalog.json"
   }
 }

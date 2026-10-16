@@ -1,0 +1,2173 @@
+{
+  "generatedAt": "2026-10-16T06:48:32.449Z",
+  "totalProducts": 2184,
+  "visibleProducts": 1948,
+  "byStatus": {
+    "ok": 1947,
+    "repaired": 1,
+    "suspect_deleted": 236,
+    "suspect_no_images": 0,
+    "unavailable": 0,
+    "error": 0,
+    "unchecked": 0
+  },
+  "visibleByStatus": {
+    "ok": 1947,
+    "repaired": 1,
+    "suspect_deleted": 0,
+    "suspect_no_images": 0,
+    "unavailable": 0,
+    "error": 0,
+    "unchecked": 0
+  },
+  "lastRun": {
+    "startedAt": "2026-10-16T06:48:32.416Z",
+    "finishedAt": "2026-10-16T06:48:32.449Z",
+    "outcome": "ok",
+    "selected": 0,
+    "checked": 0,
+    "requests": 0,
+    "observations": {},
+    "newProblems": 0,
+    "confirmed": 0,
+    "repaired": 0,
+    "restored": 0,
+    "hidden": 236,
+    "suspendedHides": 0
+  },
+  "affected": [
+    {
+      "id": 1,
+      "albumId": "229872934",
+      "nombre": "Augsburg 25/26 Fourth Away Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:28:21.328Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2,
+      "albumId": "229873009",
+      "nombre": "Augsburg 25/26 Special Edition Navy Blue Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:28:23.053Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 3,
+      "albumId": "223115736",
+      "nombre": "Augsburg 25/26 Third Away Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:22:12.970Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 4,
+      "albumId": "151184092",
+      "nombre": "23/24 Leverkusen home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:14:15.135Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 5,
+      "albumId": "171879836",
+      "nombre": "24/25 Leverkusen Home S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:37.081Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 6,
+      "albumId": "174670397",
+      "nombre": "24/25 Player Leverkusen Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:02.926Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 7,
+      "albumId": "170677412",
+      "nombre": "24/25 Player Leverkusen Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:12.520Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 14,
+      "albumId": "135833833",
+      "nombre": "23/24 Bayern Munich Home S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:10:51.476Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 18,
+      "albumId": "174670325",
+      "nombre": "24/25 Player Bayern Munich Away S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:55.467Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 19,
+      "albumId": "167394993",
+      "nombre": "24/25 Player Bayern Munich Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:28.635Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 20,
+      "albumId": "178860175",
+      "nombre": "24/25 Player Bayern Munich Third Away S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:29.945Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 32,
+      "albumId": "193039917",
+      "nombre": "25/26 Player FC Bayern Munich 125th Anniversary White S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:30:19.753Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 33,
+      "albumId": "188798119",
+      "nombre": "25/26 Players Bayern Munich 125th Anniversary S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:26:37.016Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 47,
+      "albumId": "219695198",
+      "nombre": "Bayern Munich 25/26 Red Player Version Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:17:07.519Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 48,
+      "albumId": "221734307",
+      "nombre": "Bayern Munich 25/26 Third Away Long-Sleeve Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:19:08.593Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 53,
+      "albumId": "224148140",
+      "nombre": "Bayern Munich 26/27 Leaked Home Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:22:22.767Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 70,
+      "albumId": "213385781",
+      "nombre": "Bayern Munich 25/26 Home Long Sleeve Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:01:36.149Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 76,
+      "albumId": "164805766",
+      "nombre": "24/25 Player Dortmund home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:51.528Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 89,
+      "albumId": "189879701",
+      "nombre": "Retro Dortmund 11/12 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:27:48.969Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 93,
+      "albumId": "190496426",
+      "nombre": "Retro Dortmund 94/95 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:28:32.644Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 96,
+      "albumId": "165364030",
+      "nombre": "Retro Dortmund 96/97 Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:18:07.023Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 98,
+      "albumId": "153812090",
+      "nombre": "23/24 Long sleeve Dortmund home S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:16:56.479Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 170,
+      "albumId": "223002850",
+      "nombre": "Nurnberg FC 25/26 UEFA Europa League Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:21:51.012Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 171,
+      "albumId": "175978340",
+      "nombre": "24/25 Player RB Leipzig Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:27.378Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 172,
+      "albumId": "171879758",
+      "nombre": "24/25 RB Leipzig Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:33.903Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 176,
+      "albumId": "206722135",
+      "nombre": "25/26 Schalke 04 Home S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:36:39.039Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 177,
+      "albumId": "203668935",
+      "nombre": "25/26 Schalke 04 away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:35:10.107Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 178,
+      "albumId": "206722141",
+      "nombre": "25/26 Schalke 04 third away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:36:41.036Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 180,
+      "albumId": "186520354",
+      "nombre": "Retro Schalke 04 10/11 Away Size S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:26:15.645Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 218,
+      "albumId": "173918948",
+      "nombre": "24/25 Albacete Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:43.947Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 221,
+      "albumId": "177066765",
+      "nombre": "Albacete 2024/25 Away Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:53.786Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 222,
+      "albumId": "177066670",
+      "nombre": "Albacete 202425 Third Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:52.542Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 228,
+      "albumId": "167395898",
+      "nombre": "24/25 Athletic Bilbao Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:45.775Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 229,
+      "albumId": "183840513",
+      "nombre": "24/25 Athletic Bilbao Fourth Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:24:23.672Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 230,
+      "albumId": "170678976",
+      "nombre": "24/25 Athletic Bilbao Home S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:23.494Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 250,
+      "albumId": "165364034",
+      "nombre": "Retro Athletic Bilbao Home  S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:18:08.127Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 252,
+      "albumId": "164805751",
+      "nombre": "24/25 Players Atletico Madrid Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:50.167Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 272,
+      "albumId": "182399427",
+      "nombre": "Retro Atletico Madrid 01/02  Away  S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:24:05.007Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 275,
+      "albumId": "200463008",
+      "nombre": "Retro Atletico Madrid 03/04 Centenary Home Stadium S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:33:23.185Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 282,
+      "albumId": "102106744",
+      "nombre": "Retro Atletico Madrid 14/15 home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:47:37.169Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 295,
+      "albumId": "217774232",
+      "nombre": "Atletico Madrid 25/26 Home Long-sleeved Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:13:39.490Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 311,
+      "albumId": "146852022",
+      "nombre": "23/24 Barcelona third away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:13:51.930Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 321,
+      "albumId": "181079495",
+      "nombre": "24/25 Player Barcelona Away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:23:10.357Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 322,
+      "albumId": "177391474",
+      "nombre": "24/25 Player Barcelona Away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:23.085Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 325,
+      "albumId": "170677327",
+      "nombre": "24/25 Player Barcelona Special Edition Home Stadium S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:10.857Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 326,
+      "albumId": "179154318",
+      "nombre": "24/25 Player Barcelona third away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:35.305Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 358,
+      "albumId": "212392688",
+      "nombre": "Barcelona 25/26 Black-Special Edition Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:47:23.961Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 359,
+      "albumId": "212307438",
+      "nombre": "Barcelona 25/26 Concept Edition Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:44:17.690Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 363,
+      "albumId": "212307840",
+      "nombre": "Barcelona 25/26 Concept Edition Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:44:22.097Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 364,
+      "albumId": "212307842",
+      "nombre": "Barcelona 25/26 Concept Edition Player Version Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:44:23.429Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 373,
+      "albumId": "226667528",
+      "nombre": "Barcelona 26/27 Home Leak Player Version Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:23:55.092Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 383,
+      "albumId": "247355896",
+      "nombre": "Barcelona x Kobe Bryant 26/27 Away Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:39:10.539Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 405,
+      "albumId": "189425993",
+      "nombre": "Retro Barcelona 100th Anniversary S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:27:41.182Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 457,
+      "albumId": "175106499",
+      "nombre": "24/25 Burgos Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:25.833Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 458,
+      "albumId": "209571269",
+      "nombre": "25/26 Burgos Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:38:44.388Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 461,
+      "albumId": "178780226",
+      "nombre": "24/25 Cadiz away S-2XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:28.982Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 462,
+      "albumId": "188798363",
+      "nombre": "24/25 Cadiz third S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:26:45.205Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 476,
+      "albumId": "170679107",
+      "nombre": "Celta de Vigo 24/25 Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:26.458Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 477,
+      "albumId": "168017266",
+      "nombre": "Celta de Vigo 24/25 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:50.975Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 478,
+      "albumId": "181884677",
+      "nombre": "Celta de Vigo 24/25 Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:23:55.182Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 492,
+      "albumId": "175044756",
+      "nombre": "24/25 Cordoba 70th Anniversary Edition S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:14.529Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 493,
+      "albumId": "175044781",
+      "nombre": "24/25 Cordoba Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:17.740Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 494,
+      "albumId": "175044768",
+      "nombre": "24/25 Cordoba Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:15.771Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 512,
+      "albumId": "175044693",
+      "nombre": "24/25 Deportivo La Coruna Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:13.399Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 531,
+      "albumId": "181884719",
+      "nombre": "24/25 Elche Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:23:56.296Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 539,
+      "albumId": "216225079",
+      "nombre": "Espanyol 25/26 Home Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:11:10.662Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 569,
+      "albumId": "173919043",
+      "nombre": "24/25 Malaga Away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:46.153Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 570,
+      "albumId": "187129167",
+      "nombre": "25/26 Malaga Anniversary Edition S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:26:21.309Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 582,
+      "albumId": "160800124",
+      "nombre": "Retro Malaga 120th Anniversary S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:26.488Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 585,
+      "albumId": "179247548",
+      "nombre": "24/25 Mallorca third away game S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:44.424Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 596,
+      "albumId": "209909021",
+      "nombre": "25/26 Osasuna away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:38:59.443Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 597,
+      "albumId": "209571050",
+      "nombre": "25/26 Osasuna home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:38:24.379Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 598,
+      "albumId": "209909029",
+      "nombre": "25/26 Osasuna third away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:39:00.383Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 599,
+      "albumId": "209909106",
+      "nombre": "25/26 Osasuna third away Size: 16-28",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:39:01.715Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 615,
+      "albumId": "184319235",
+      "nombre": "24/25 Racing de Santander Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:24:45.103Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 616,
+      "albumId": "184319215",
+      "nombre": "24/25 Racing de Santander homes-S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:24:43.511Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 617,
+      "albumId": "192670951",
+      "nombre": "25/26 Racing de Santander 112th Anniversary Edition S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:30:18.387Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 632,
+      "albumId": "210081467",
+      "nombre": "25/26 Real Betis Away Size: 16-28",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:39:15.574Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 637,
+      "albumId": "216226064",
+      "nombre": "Real Betis 25/26 Day of the Dead - Green Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:11:40.050Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 643,
+      "albumId": "244623833",
+      "nombre": "Real Betis 26/27 Home Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:36:01.836Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 646,
+      "albumId": "212484483",
+      "nombre": "Real Betis Balompié. Camiseta Oversize NegraVerde Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:48:19.264Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 664,
+      "albumId": "84467418",
+      "nombre": "20/21 Real Madrid away S-XXXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:43:09.524Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 665,
+      "albumId": "84503923",
+      "nombre": "20/21 Real Madrid home S-XXXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:43:10.826Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 668,
+      "albumId": "97625755",
+      "nombre": "21/22 Real Madrid home S-XXXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:47:04.912Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 677,
+      "albumId": "167394779",
+      "nombre": "24/25 Player Real Madrid Away S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:27.115Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 678,
+      "albumId": "166152012",
+      "nombre": "24/25 Player Real Madrid Home S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:18:17.490Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 679,
+      "albumId": "167394762",
+      "nombre": "24/25 Player Real Madrid Third Away S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:26.043Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 680,
+      "albumId": "183471190",
+      "nombre": "24/25 Real Madrid  Green and black special edition Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:24:19.383Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 748,
+      "albumId": "212308797",
+      "nombre": "Real Madrid 25/26 Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:44:50.126Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 777,
+      "albumId": "110372846",
+      "nombre": "Retro 97-98 Real Madrid Champions League 7 Champions Commemorative Edition S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:47:40.288Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 821,
+      "albumId": "153811109",
+      "nombre": "23/24 Long sleeve Real Madrid away S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:16:52.936Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 822,
+      "albumId": "153811093",
+      "nombre": "23/24 Long sleeve Real Madrid third away S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:16:51.377Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 856,
+      "albumId": "213387035",
+      "nombre": "Real Madrid 25/26 Third Away Long Sleeve Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:02:14.450Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 880,
+      "albumId": "216224775",
+      "nombre": "Real Murcia 25/26 Home Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:11:03.628Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 893,
+      "albumId": "167395880",
+      "nombre": "24/25 Real Sociedad Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:44.048Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 895,
+      "albumId": "208818880",
+      "nombre": "25/26 Real Sociedad Home S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:37:04.439Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 909,
+      "albumId": "210081454",
+      "nombre": "25/26 Sevilla Away Size: 16-28",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:39:13.298Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 928,
+      "albumId": "173977159",
+      "nombre": "24/25 Sporting Gijon Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:47.041Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 929,
+      "albumId": "178780146",
+      "nombre": "24/25 Sporting Gijon away S-2XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:27.737Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 932,
+      "albumId": "200072024",
+      "nombre": "Retro 08/09 Sporting Gijon Home Size S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:33:14.021Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 936,
+      "albumId": "182398970",
+      "nombre": "Retro Sporting Gijon 15/16 Away  S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:24:01.041Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 952,
+      "albumId": "175044945",
+      "nombre": "24/25 Valencia third away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:19.500Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 958,
+      "albumId": "195030940",
+      "nombre": "Retro Valencia 18/19 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:31:40.268Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 975,
+      "albumId": "181079598",
+      "nombre": "24/25 Villarreal Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:23:11.968Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 978,
+      "albumId": "137776125",
+      "nombre": "Retro Villarreal 05/06 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:11:04.210Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 982,
+      "albumId": "170679083",
+      "nombre": "24/25 Zaragoza Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:24.885Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 984,
+      "albumId": "210081437",
+      "nombre": "25/26 Zaragoza Home Size: 16-28",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:39:13.015Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 990,
+      "albumId": "164805926",
+      "nombre": "Retro Zaragoza 92/93 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:56.823Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 991,
+      "albumId": "160288651",
+      "nombre": "Retro Zaragoza 92/93 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:21.958Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1004,
+      "albumId": "168821545",
+      "nombre": "24/25 Player America Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:03.876Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1005,
+      "albumId": "174670418",
+      "nombre": "24/25 Player Americas Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:04.977Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1016,
+      "albumId": "212392684",
+      "nombre": "America 25/26 2nd Away Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:47:21.385Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1023,
+      "albumId": "229204534",
+      "nombre": "America 26/27 Home Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:28:04.781Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1100,
+      "albumId": "178861172",
+      "nombre": "24/25 Player Marseille Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:31.292Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1107,
+      "albumId": "213273284",
+      "nombre": "Marseille 25/26 Player Version Away Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:00:20.015Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1167,
+      "albumId": "240053856",
+      "nombre": "PSG 26/27 Home Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:34:21.516Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1191,
+      "albumId": "203669038",
+      "nombre": "Retro PSG 1974 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:35:10.962Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1197,
+      "albumId": "188799144",
+      "nombre": "24/25 Long sleeve PSG fourth away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:26:52.780Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1203,
+      "albumId": "209571597",
+      "nombre": "25/26 Paris FC Away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:38:45.354Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1204,
+      "albumId": "209571616",
+      "nombre": "25/26 Paris FC Home S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:38:46.630Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1207,
+      "albumId": "244623738",
+      "nombre": "RC Lens 26/27 Home Jersey S-4XL",
+      "status": "repaired",
+      "visible": true,
+      "since": "2026-10-16T06:36:00.232Z",
+      "detail": "http_404"
+    },
+    {
+      "id": 1213,
+      "albumId": "183471103",
+      "nombre": "24/25  Arsenal Pre Match Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:24:18.891Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1217,
+      "albumId": "175978561",
+      "nombre": "24/25 Player Arsenal Away S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:28.793Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1218,
+      "albumId": "167395328",
+      "nombre": "24/25 Player Arsenal Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:30.115Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1219,
+      "albumId": "164805782",
+      "nombre": "24/25 Players Arsenal Home S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:52.895Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1244,
+      "albumId": "222820714",
+      "nombre": "Arsenal 25/26 Special Edition - Maroon Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:21:19.964Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1249,
+      "albumId": "212307845",
+      "nombre": "Arsenal 25/26 White Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:44:28.169Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1251,
+      "albumId": "233494950",
+      "nombre": "Arsenal 26/27 Away Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:30:09.826Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1283,
+      "albumId": "97219774",
+      "nombre": "Retro Arsenal 71/79 away yellow S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:47:03.704Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1284,
+      "albumId": "96244962",
+      "nombre": "Retro Arsenal 83/86 home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:46:26.750Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1311,
+      "albumId": "97219771",
+      "nombre": "Retro long sleeve Arsenal 71/79 away yellow S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:47:02.368Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1318,
+      "albumId": "210988364",
+      "nombre": "25/26 Aston Villa third away Size: 16-28",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:39:56.791Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1319,
+      "albumId": "206461478",
+      "nombre": "25/26 Player Aston Villa Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:35:48.482Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1323,
+      "albumId": "213271539",
+      "nombre": "Aston Villa 25/26 Player Version Away Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:00:05.627Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1346,
+      "albumId": "178861509",
+      "nombre": "24/25 Player Brighton Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:33.834Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1347,
+      "albumId": "174670530",
+      "nombre": "24/25 Player Brighton Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:08.854Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1349,
+      "albumId": "213272841",
+      "nombre": "Brighton 25/26 Player Version Home Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:00:10.628Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1357,
+      "albumId": "170678101",
+      "nombre": "24/25 Player Chelsea Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:16.634Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1358,
+      "albumId": "179154405",
+      "nombre": "24/25 Players Chelsea Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:36.852Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1376,
+      "albumId": "247785315",
+      "nombre": "Chelsea 26/27 Home Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:39:14.994Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1414,
+      "albumId": "171879706",
+      "nombre": "24/25 Crystal Palace Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:32.474Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1415,
+      "albumId": "170678180",
+      "nombre": "24/25 Player Crystal Palace Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:17.461Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1416,
+      "albumId": "179154538",
+      "nombre": "24/25 Player Crystal Palace Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:39.508Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1417,
+      "albumId": "209087525",
+      "nombre": "25/26 Player Crystal Palace Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:37:18.596Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1418,
+      "albumId": "216481185",
+      "nombre": "Crystal Palace 25/26 Away Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:11:57.642Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1419,
+      "albumId": "215020308",
+      "nombre": "Crystal Palace 25/26 Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:09:22.100Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1420,
+      "albumId": "222820769",
+      "nombre": "Crystal Palace 25/26 Limited Edition Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:21:24.445Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1421,
+      "albumId": "213271917",
+      "nombre": "Crystal Palace 25/26 Player Version Home Jersey",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:00:09.281Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1422,
+      "albumId": "219398939",
+      "nombre": "Crystal Palace 96/98 Home Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:15:37.876Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1423,
+      "albumId": "231115189",
+      "nombre": "Crystal Palace 98/99 Away Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:29:16.282Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1424,
+      "albumId": "217438624",
+      "nombre": "Crystal Palace 98/99 Home Retro Jesery S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:13:17.813Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1436,
+      "albumId": "179154466",
+      "nombre": "2024 Player Fulham Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:38.005Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1437,
+      "albumId": "174670547",
+      "nombre": "24/25 Player Fulham Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:10.144Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1447,
+      "albumId": "171879782",
+      "nombre": "24/25 Leeds United Home S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:35.730Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1450,
+      "albumId": "213374729",
+      "nombre": "Leeds United 25/26 Player Version Home Jersey Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:00:38.384Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1475,
+      "albumId": "164805788",
+      "nombre": "24/25 Player M-U Away S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:54.278Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1476,
+      "albumId": "175978587",
+      "nombre": "24/25 Player M-U Home S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:29.894Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1477,
+      "albumId": "167395355",
+      "nombre": "24/25 Player M-U Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:31.466Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1521,
+      "albumId": "212308453",
+      "nombre": "M-U 25/26 Concept Edition Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:44:34.965Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1529,
+      "albumId": "213148027",
+      "nombre": "M-U 25/26 Special Edition Grey Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:59:01.591Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1531,
+      "albumId": "212392686",
+      "nombre": "M-U 25/26 Year of the Snake Special Edition Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:47:22.652Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1534,
+      "albumId": "233498230",
+      "nombre": "M-U 26/27 Home Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:30:19.753Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1535,
+      "albumId": "229204733",
+      "nombre": "M-U 26/27 Home Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:28:06.048Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1539,
+      "albumId": "239252915",
+      "nombre": "M-U 26/27 Third Away Player Version Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:34:08.711Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1589,
+      "albumId": "96144775",
+      "nombre": "Retro M-U99/00 away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:46:20.893Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1640,
+      "albumId": "164805711",
+      "nombre": "24/25 Player Manchester City Home S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:47.658Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1641,
+      "albumId": "170678305",
+      "nombre": "24/25 Player Manchester City Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:18.992Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1642,
+      "albumId": "170678065",
+      "nombre": "24/25 Player Manchester City Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:14.782Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1658,
+      "albumId": "212308461",
+      "nombre": "Manchester City 25/26 Away Player Version Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:44:39.428Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1663,
+      "albumId": "221734372",
+      "nombre": "Manchester City 25/26 Third Away Long-Sleeve Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:19:10.362Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1687,
+      "albumId": "153811141",
+      "nombre": "23/24 Long sleeve Manchester City third away S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:16:54.273Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1692,
+      "albumId": "168017221",
+      "nombre": "24/25 Newcastle United Home S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:50.326Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1693,
+      "albumId": "177391465",
+      "nombre": "24/25 Player Newcastle United Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:21.652Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1694,
+      "albumId": "177391464",
+      "nombre": "24/25 Player Newcastle United Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:20.805Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1698,
+      "albumId": "191697804",
+      "nombre": "25/26 Player Newcastle United Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:29:55.148Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1703,
+      "albumId": "177065098",
+      "nombre": "Newcastle United 2024/25 Third Away Jersey  S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:36.817Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1705,
+      "albumId": "226515972",
+      "nombre": "Newcastle United 26/27 Home Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:23:47.743Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1715,
+      "albumId": "221734432",
+      "nombre": "Newcastle United 25/26 Third Away Long Sleeve Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:19:11.462Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1744,
+      "albumId": "215723366",
+      "nombre": "Southampton 25/26 Home Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:10:02.537Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1748,
+      "albumId": "210323906",
+      "nombre": "25/26 Sunderland Home S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:39:44.534Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1757,
+      "albumId": "164805799",
+      "nombre": "24/25 Player Tottenham Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:55.702Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1774,
+      "albumId": "96244809",
+      "nombre": "Retro Tottenham 92/94 third away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:46:25.240Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1794,
+      "albumId": "210988379",
+      "nombre": "25/26 West Ham United away Size: 16-28",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:39:58.384Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1805,
+      "albumId": "177391442",
+      "nombre": "24/25 Player Wolves Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:17.885Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1819,
+      "albumId": "116340759",
+      "nombre": "22/23 AC Milan third away S-XXL.",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:47:42.165Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1820,
+      "albumId": "142208491",
+      "nombre": "23/24 AC Milan away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:12:37.260Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1823,
+      "albumId": "144281635",
+      "nombre": "23/24 AC Milan third away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:12:49.501Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1825,
+      "albumId": "170677800",
+      "nombre": "24/25 Player AC Milan Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:13.092Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1826,
+      "albumId": "164805726",
+      "nombre": "24/25 Player AC Milan Home S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:17:48.628Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1904,
+      "albumId": "209263795",
+      "nombre": "Retro AC Milan 97/98 Special Edition S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:38:13.467Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1915,
+      "albumId": "182214831",
+      "nombre": "Long Sleeve 24/25 AC Milan 125th Anniversary Black  SIZE S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:23:59.178Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1916,
+      "albumId": "182214735",
+      "nombre": "Long Sleeve 24/25 AC Milan 125th Anniversary Red  SIZE S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:23:57.778Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1918,
+      "albumId": "116561915",
+      "nombre": "Retro Long Sleeve 99/00 AC Milan home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:47:44.364Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1924,
+      "albumId": "177067682",
+      "nombre": "Atalanta 2024/25 Home Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:11.002Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1935,
+      "albumId": "212192234",
+      "nombre": "25/26 US Cremonese Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:41:45.826Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1969,
+      "albumId": "174670313",
+      "nombre": "24/25 Player Inter Milan Home S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:20:54.086Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1970,
+      "albumId": "179154601",
+      "nombre": "24/25 Players Inter Milan Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:40.789Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1971,
+      "albumId": "179154623",
+      "nombre": "24/25 Players Inter Milan Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:43.202Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 1984,
+      "albumId": "212308465",
+      "nombre": "Inter Milan 24/25 Away Joint Edition Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:44:40.849Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2033,
+      "albumId": "166258060",
+      "nombre": "24/25 Lazio 50th Anniversary Black S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:18:40.862Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2034,
+      "albumId": "166258037",
+      "nombre": "24/25 Lazio 50th Anniversary Blue S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:18:40.133Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2039,
+      "albumId": "177067773",
+      "nombre": "Lazio 2024/25 Away Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:13.524Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2054,
+      "albumId": "142024339",
+      "nombre": "23/24 Napoli Home S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:12:35.740Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2055,
+      "albumId": "145361682",
+      "nombre": "23/24 Napoli third away S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:13:24.340Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2056,
+      "albumId": "178861240",
+      "nombre": "24/25 Player Napoli Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:33.068Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2057,
+      "albumId": "174670552",
+      "nombre": "24/25 Player Napoli Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:12.079Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2058,
+      "albumId": "209086910",
+      "nombre": "25/26 Player  Napoli Home  S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:37:14.246Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2068,
+      "albumId": "213375117",
+      "nombre": "Napoli 25/26 Player Version Away Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:00:48.327Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2083,
+      "albumId": "90366998",
+      "nombre": "Retro Napoli 88/89 home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:44:47.691Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2093,
+      "albumId": "177067710",
+      "nombre": "Parma Calcio 2024/25 Home Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:12.548Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2106,
+      "albumId": "113915913",
+      "nombre": "Retro Parma 99/00 away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:47:40.621Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2113,
+      "albumId": "217356786",
+      "nombre": "Pisa 25/26 Home Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:12:59.994Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2117,
+      "albumId": "174670412",
+      "nombre": "24/25 Player Roma Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:21:03.424Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2118,
+      "albumId": "177391445",
+      "nombre": "24/25 Player Roma away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:19.307Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2124,
+      "albumId": "213268387",
+      "nombre": "ROMA 25/26 Pre-Match Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:59:58.651Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2128,
+      "albumId": "166608191",
+      "nombre": "Retro Roma 04/05 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:19:01.993Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2129,
+      "albumId": "137776247",
+      "nombre": "Retro Roma 05/06 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:11:11.902Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2134,
+      "albumId": "186059817",
+      "nombre": "Retro Roma 91/92 Third Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:25:52.409Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2139,
+      "albumId": "190494941",
+      "nombre": "Retro Roma 97/98 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:28:11.716Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2140,
+      "albumId": "190494854",
+      "nombre": "Retro Roma 99/00 Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:28:10.350Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2141,
+      "albumId": "184675058",
+      "nombre": "Retro Roma 99/00 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:25:13.881Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2143,
+      "albumId": "188798930",
+      "nombre": "Retro Roma98/99 Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:26:46.089Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2144,
+      "albumId": "166257455",
+      "nombre": "Retro Roma98/99 Home S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:18:21.850Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2146,
+      "albumId": "214128889",
+      "nombre": "Roma 06/07 Home Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:06:26.082Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2148,
+      "albumId": "177067608",
+      "nombre": "Roma 2024/25 Away Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:22:09.452Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2151,
+      "albumId": "213387630",
+      "nombre": "Roma 25/26 Third Away Player Version Jersey S-3XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:02:33.407Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2155,
+      "albumId": "220231538",
+      "nombre": "Roma 98/99 Third Away Long-Sleeve Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:17:46.098Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2156,
+      "albumId": "220231558",
+      "nombre": "Roma 98/99 Third Away Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:17:47.462Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2157,
+      "albumId": "220231581",
+      "nombre": "Roma 99/00 Away Long-Sleeve Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:17:49.512Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2158,
+      "albumId": "218843915",
+      "nombre": "Roma 99/00 Away Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:14:24.649Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2159,
+      "albumId": "218844173",
+      "nombre": "Roma 99/00 Home Long-Sleeve Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:14:26.549Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2164,
+      "albumId": "212826983",
+      "nombre": "Roma 98/99 Away Long Sleeve Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:55:01.549Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2165,
+      "albumId": "212826898",
+      "nombre": "Roma 98/99 Home Long Sleeve Retro Jersey S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T05:55:00.255Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2166,
+      "albumId": "218844944",
+      "nombre": "Roma 99/00 Third Away Long-Sleeved Retro Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:14:27.256Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2178,
+      "albumId": "223003521",
+      "nombre": "Torino 25/26 Third Away Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:22:03.316Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2180,
+      "albumId": "221733626",
+      "nombre": "Venezia 25/26 Fourth Away Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:19:07.513Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2184,
+      "albumId": "215022464",
+      "nombre": "25/26 Long Sleeve Venezia Away S-XXL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-16T06:09:23.621Z",
+      "detail": "album_deleted"
+    }
+  ]
+}

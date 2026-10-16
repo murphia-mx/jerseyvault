@@ -87,8 +87,6 @@ The project was approached as a **catalog-first digital experience** rather than
 
 The interface uses a combination of:
 
-- Editorial hero sections
-- Curated discovery modules
 - League navigation
 - Search
 - Catalog filters
@@ -99,22 +97,18 @@ The interface uses a combination of:
 - Wishlist interactions
 - Lightboxes and image-focused UI
 
-Instead of overwhelming visitors with the entire catalog immediately, the home experience creates a visual path into the collection.
+Visitors land directly on the catalog, where search, league filters and curated collections narrow down the full range.
 
 ---
 
 ## Key Features
 
-### Discovery Experience
+### Catalog-first entry
 
-- Cinematic hero section
-- Curated football imagery
-- Bento-style discovery layout
-- League navigation
-- Featured products
-- Trending content
-- Editorial manifesto section
-- Responsive CTA sections
+- The domain opens directly on the full catalog
+- League navigation and curated collections
+- National teams section (Selecciones), filterable by country and season
+- Global search
 
 ### Catalog
 
@@ -202,7 +196,7 @@ The service exposes operations for:
 - Extracting teams within a league
 - Filtering products using multiple criteria
 
-This keeps the catalog logic reusable across the home page, catalog pages, collections and product views.
+This keeps the catalog logic reusable across the catalog pages, collections, product views and wishlist.
 
 ---
 
@@ -219,7 +213,6 @@ catalog.service.ts
      ▼
 useCatalog
      │
-     ├── Home
      ├── Catalog
      ├── Collection
      ├── Product
@@ -227,6 +220,8 @@ useCatalog
 ```
 
 This approach keeps the demonstration self-contained and makes the project easy to run locally without requiring an external database or commerce platform.
+
+`src/data/catalog.json` is generated: it is the master catalog (`data/catalog.master.json`) minus the products whose Yupoo album is gone or has no valid photo, with broken thumbnails repaired. A scheduled check keeps it up to date — see [`scripts/catalog-check/README.md`](scripts/catalog-check/README.md).
 
 The architecture also leaves a clear path for replacing the local dataset with an API or database-backed catalog in a future production implementation.
 
@@ -244,7 +239,6 @@ src/
 ├── components/
 │   ├── cart/
 │   ├── catalog/
-│   ├── home/
 │   ├── layout/
 │   ├── product/
 │   ├── ui/
@@ -296,11 +290,9 @@ The objective is to make the catalog feel more like a curated collection than a 
 - Clear interaction states
 - Product imagery as the primary visual element
 
-### Discovery before density
+### Catalog first
 
-Rather than presenting hundreds of products immediately, the homepage establishes context through curated sections before directing users into the complete catalog.
-
-This creates a more intentional browsing experience and helps reduce the perceived complexity of a large dataset.
+The store opens straight on the catalog. Filters, search and paginated loading keep a large dataset easy to browse without an intermediate landing page.
 
 ### Responsive behavior
 
@@ -447,7 +439,6 @@ Club Kit/
 │   ├── components/
 │   │   ├── cart/
 │   │   ├── catalog/
-│   │   ├── home/
 │   │   ├── layout/
 │   │   ├── product/
 │   │   ├── ui/
@@ -558,7 +549,7 @@ The solution was to centralize catalog querying and expose reusable filtering op
 
 ### Maintaining visual consistency
 
-The project contains several distinct experiences — homepage, catalog, collection, product detail and wishlist.
+The project contains several distinct experiences — catalog, collection, product detail and wishlist.
 
 Reusable UI primitives and shared layout components help keep typography, spacing, buttons, cards and interaction patterns consistent across the application.
 

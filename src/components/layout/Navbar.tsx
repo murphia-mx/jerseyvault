@@ -7,6 +7,10 @@ import { APP_CONFIG } from "../../config/app.config";
 import { cn } from "../../utils/cn";
 import { GlobalSearch } from "./GlobalSearch";
 import { ThemeToggle } from "./ThemeToggle";
+import { NewSectionTag } from "../ui/NewSectionTag";
+import { SELECCIONES } from "../../services/catalog.service";
+
+const SELECCIONES_PATH = `/catalogo/${SELECCIONES}`;
 
 const COLLECTIONS = [
   { id: "retro", name: "Retro Collection" },
@@ -62,12 +66,11 @@ export default function Navbar() {
     return () => document.removeEventListener("keydown", onKey);
   }, [isMobileMenuOpen]);
 
-  const isActive = (path: string) =>
-    path === "/"
-      ? location.pathname === "/"
-      : location.pathname.startsWith(path);
+  const isActive = (path: string) => location.pathname.startsWith(path);
 
   const isCollectionActive = isActive("/coleccion");
+  const isSeleccionesActive = isActive(SELECCIONES_PATH);
+  const isCatalogActive = isActive("/catalogo") && !isSeleccionesActive;
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
     setIsMobileCollectionsOpen(false);
@@ -96,7 +99,7 @@ export default function Navbar() {
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <Link
-              to="/"
+              to="/catalogo"
               className="flex items-center gap-2.5 flex-shrink-0 transition-opacity hover:opacity-80 group"
             >
               <span className="text-xl font-black tracking-tighter text-gray-900 dark:text-white transition-colors">
@@ -107,35 +110,32 @@ export default function Navbar() {
             {/* ── Desktop Nav ── */}
             <nav className="hidden md:flex items-center justify-center space-x-1 absolute left-1/2 -translate-x-1/2 h-full">
               <Link
-                to="/"
-                className={cn(
-                  "relative px-4 py-2 text-[13px] font-bold tracking-wide uppercase transition-colors duration-200 rounded-lg",
-                  isActive("/") &&
-                    !isActive("/catalogo") &&
-                    !isActive("/coleccion")
-                    ? "text-gray-900 dark:text-white"
-                    : "text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5",
-                )}
-              >
-                Inicio
-                {isActive("/") &&
-                  !isActive("/catalogo") &&
-                  !isActive("/coleccion") && (
-                    <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-gray-900 dark:bg-white rounded-full" />
-                  )}
-              </Link>
-
-              <Link
                 to="/catalogo"
                 className={cn(
                   "relative px-4 py-2 text-[13px] font-bold tracking-wide uppercase transition-colors duration-200 rounded-lg",
-                  isActive("/catalogo") && !isCollectionActive
+                  isCatalogActive
                     ? "text-gray-900 dark:text-white"
                     : "text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5",
                 )}
               >
                 Catálogo
-                {isActive("/catalogo") && !isCollectionActive && (
+                {isCatalogActive && (
+                  <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-gray-900 dark:bg-white rounded-full" />
+                )}
+              </Link>
+
+              <Link
+                to={SELECCIONES_PATH}
+                className={cn(
+                  "relative flex items-center gap-2 px-4 py-2 text-[13px] font-bold tracking-wide uppercase transition-colors duration-200 rounded-lg",
+                  isSeleccionesActive
+                    ? "text-gray-900 dark:text-white"
+                    : "text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-white/5",
+                )}
+              >
+                Selecciones
+                <NewSectionTag label="Nueva" />
+                {isSeleccionesActive && (
                   <span className="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 bg-gray-900 dark:bg-white rounded-full" />
                 )}
               </Link>
@@ -257,31 +257,30 @@ export default function Navbar() {
         >
           <nav className="flex flex-col py-3 px-3 gap-1 overflow-y-auto max-h-[80vh]">
             <Link
-              to="/"
-              onClick={closeMobileMenu}
-              className={cn(
-                "flex items-center px-4 py-3 text-sm font-semibold rounded-xl transition-colors",
-                isActive("/") &&
-                  !isActive("/catalogo") &&
-                  !isActive("/coleccion")
-                  ? "bg-gray-950 dark:bg-white text-white dark:text-gray-900"
-                  : "text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-white/5",
-              )}
-            >
-              Inicio
-            </Link>
-
-            <Link
               to="/catalogo"
               onClick={closeMobileMenu}
               className={cn(
                 "flex items-center px-4 py-3 text-sm font-semibold rounded-xl transition-colors",
-                isActive("/catalogo") && !isCollectionActive
+                isCatalogActive
                   ? "bg-gray-950 dark:bg-white text-white dark:text-gray-900"
                   : "text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-white/5",
               )}
             >
               Catálogo
+            </Link>
+
+            <Link
+              to={SELECCIONES_PATH}
+              onClick={closeMobileMenu}
+              className={cn(
+                "flex items-center justify-between px-4 py-3 text-sm font-semibold rounded-xl transition-colors",
+                isSeleccionesActive
+                  ? "bg-gray-950 dark:bg-white text-white dark:text-gray-900"
+                  : "text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-white/5",
+              )}
+            >
+              Selecciones
+              <NewSectionTag inverted={isSeleccionesActive} />
             </Link>
 
             {/* Colecciones accordion */}

@@ -1,3 +1,9 @@
+[build]
+  # Skip the deploy when a commit only touches checker state/reports
+  # (the scheduled catalog check commits twice a day). Changes to
+  # public/catalog.json or the site itself still deploy as usual.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)data' ':(exclude)reports' ':(exclude)scripts' ':(exclude).github'"
+
 [[edge_functions]]
   path = "/img-proxy/*"
   function = "img-proxy"

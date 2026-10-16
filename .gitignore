@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Catalog checker temp files
+*.tmp
+
+# Local data backups (the git history and the pre-deploy tag are the restore points)
+data/backups/
