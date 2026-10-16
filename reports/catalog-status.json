@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-10-16T06:48:32.449Z",
-  "totalProducts": 2184,
-  "visibleProducts": 1948,
+  "generatedAt": "2026-10-16T20:09:39.442Z",
+  "totalProducts": 2852,
+  "visibleProducts": 2616,
   "byStatus": {
-    "ok": 1947,
+    "ok": 2615,
     "repaired": 1,
     "suspect_deleted": 236,
     "suspect_no_images": 0,
@@ -12,7 +12,7 @@
     "unchecked": 0
   },
   "visibleByStatus": {
-    "ok": 1947,
+    "ok": 2615,
     "repaired": 1,
     "suspect_deleted": 0,
     "suspect_no_images": 0,
@@ -21,18 +21,20 @@
     "unchecked": 0
   },
   "lastRun": {
-    "startedAt": "2026-10-16T06:48:32.416Z",
-    "finishedAt": "2026-10-16T06:48:32.449Z",
+    "startedAt": "2026-10-16T19:57:57.651Z",
+    "finishedAt": "2026-10-16T20:09:39.442Z",
     "outcome": "ok",
-    "selected": 0,
-    "checked": 0,
-    "requests": 0,
-    "observations": {},
+    "selected": 250,
+    "checked": 250,
+    "requests": 500,
+    "observations": {
+      "exists_valid": 250
+    },
     "newProblems": 0,
     "confirmed": 0,
     "repaired": 0,
     "restored": 0,
-    "hidden": 236,
+    "hidden": 0,
     "suspendedHides": 0
   },
   "affected": [

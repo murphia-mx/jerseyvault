@@ -1,10 +1,10 @@
 # Estado del catálogo
 
-Actualizado: 2026-10-16T06:48:32.449Z · Productos: 2184 · En tienda: 1948 · Retirados: 236
+Actualizado: 2026-10-16T20:09:39.442Z · Productos: 2852 · En tienda: 2616 · Retirados: 236
 
 | Estado | Productos | En tienda |
 |---|---:|---:|
-| Sano | 1947 | 1947 |
+| Sano | 2615 | 2615 |
 | Miniatura reparada con otra foto del álbum | 1 | 1 |
 | Álbum eliminado en Yupoo (pendiente de confirmar a las 24 h) | 236 | 0 |
 | Álbum sin ninguna foto válida (pendiente de confirmar a las 24 h) | 0 | 0 |
@@ -14,7 +14,7 @@ Actualizado: 2026-10-16T06:48:32.449Z · Productos: 2184 · En tienda: 1948 · R
 
 ## Última ejecución
 
-Resultado: **ok** · Revisados: 0/0 · Peticiones: 0 · Problemas nuevos: 0 · Confirmados: 0 · Reparados: 0 · Restaurados: 0 · Retirados: 236 · Retiradas suspendidas: 0
+Resultado: **ok** · Revisados: 250/250 · Peticiones: 500 · Problemas nuevos: 0 · Confirmados: 0 · Reparados: 0 · Restaurados: 0 · Retirados: 0 · Retiradas suspendidas: 0
 
 
 ## Productos afectados
