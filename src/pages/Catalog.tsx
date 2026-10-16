@@ -1,8 +1,8 @@
-import { useEffect, useState, useRef } from 'react';
-import { useParams, useNavigate, useSearchParams } from 'react-router-dom';
-import { Search, SlidersHorizontal, X, ChevronRight } from 'lucide-react';
+import { useEffect, useState, useRef, useCallback, useMemo } from 'react';
+import { Link, useParams, useNavigate, useSearchParams } from 'react-router-dom';
+import { Search, SlidersHorizontal, X, ChevronRight, ArrowRight } from 'lucide-react';
 import { useCatalog } from '../hooks/useCatalog';
-import { getLigas, getEquiposByLiga } from '../services/catalog.service';
+import { getLigas, getEquiposByLiga, countBy, filterProducts, sortTemporadas, SELECCIONES } from '../services/catalog.service';
 import type { Liga } from '../types/product';
 import { ProductGrid } from '../components/catalog/ProductGrid';
 import { FilterSidebar } from '../components/catalog/FilterSidebar';
@@ -11,6 +11,7 @@ import { EmptyState } from '../components/catalog/EmptyState';
 import { Input } from '../components/ui/Input';
 import { Button } from '../components/ui/Button';
 import { SectionTitle } from '../components/ui/SectionTitle';
+import { NewSectionTag } from '../components/ui/NewSectionTag';
 import { cn } from '../utils/cn';
 import { Helmet } from 'react-helmet-async';
 
@@ -27,11 +28,13 @@ function MobileFilterDrawer({
   isOpen,
   onClose,
   activeFilterCount,
+  resultCount,
   children,
 }: {
   isOpen: boolean;
   onClose: () => void;
   activeFilterCount: number;
+  resultCount: number;
   children: React.ReactNode;
 }) {
   const panelRef = useRef<HTMLDivElement>(null);
@@ -80,11 +83,10 @@ function MobileFilterDrawer({
           'sm:inset-y-0 sm:right-0 sm:left-auto sm:rounded-none sm:rounded-l-3xl sm:w-80 sm:max-h-full',
           'bg-white dark:bg-[#0a0a0a]',
           'border-t border-gray-100 dark:border-white/10 sm:border-t-0 sm:border-l',
-          'shadow-[0_-16px_40px_rgba(0,0,0,0.15)] sm:shadow-[-16px_0_40px_rgba(0,0,0,0.15)] dark:shadow-[0_-20px_60px_rgba(0,0,0,0.6)]',
           'transition-transform duration-300 ease-out will-change-transform',
           isOpen
-            ? 'translate-y-0 sm:translate-x-0'
-            : 'translate-y-full sm:translate-y-0 sm:translate-x-full'
+            ? 'translate-y-0 sm:translate-x-0 shadow-[0_-16px_40px_rgba(0,0,0,0.15)] sm:shadow-[-16px_0_40px_rgba(0,0,0,0.15)] dark:shadow-[0_-20px_60px_rgba(0,0,0,0.6)]'
+            : 'translate-y-full sm:translate-y-0 sm:translate-x-full shadow-none'
         )}
       >
         {/* Swipe handle pill — mobile only visual affordance */}
@@ -127,7 +129,9 @@ function MobileFilterDrawer({
             onClick={onClose}
             className="w-full h-12 bg-gray-900 dark:bg-white text-white dark:text-gray-900 text-sm font-bold rounded-xl hover:bg-black dark:hover:bg-gray-100 transition-colors flex items-center justify-center gap-2"
           >
-            Ver resultados
+            {resultCount === 0
+              ? 'Sin resultados'
+              : `Ver ${resultCount.toLocaleString('es-MX')} ${resultCount === 1 ? 'resultado' : 'resultados'}`}
             <ChevronRight className="w-4 h-4" />
           </button>
         </div>
@@ -136,18 +140,58 @@ function MobileFilterDrawer({
   );
 }
 
+/** Discreet entry point to the national-teams section from the main catalog. */
+function DiscoverSelecciones({ countries }: { countries: number }) {
+  return (
+    <Link
+      to={`/catalogo/${SELECCIONES}`}
+      className="group mt-5 inline-flex max-w-full items-center gap-2.5 rounded-full border border-gray-200 bg-white py-1 pl-1 pr-3.5 text-[13px] transition-colors hover:border-gray-300 dark:border-white/10 dark:bg-white/[0.03] dark:hover:border-white/20"
+    >
+      <NewSectionTag variant="solid" />
+      <span className="truncate font-medium text-gray-800 dark:text-gray-100">Selecciones nacionales</span>
+      <span className="hidden text-gray-400 sm:inline dark:text-gray-500">{countries} países</span>
+      <ArrowRight className="h-3.5 w-3.5 flex-shrink-0 text-gray-400 transition-transform group-hover:translate-x-0.5 group-hover:text-gray-900 dark:group-hover:text-white" />
+    </Link>
+  );
+}
+
 export default function Catalog() {
   const { liga } = useParams<{ liga?: string }>();
   const navigate = useNavigate();
-  const { products, isLoading, filters, setFilter, clearFilters, setQuery, hasMore, loadMore, totalResults } = useCatalog();
+  const { allProducts, products, isLoading, filters, setFilter, clearFilters, setQuery, hasMore, loadMore, totalResults } = useCatalog();
   
   const [ligas, setLigas] = useState<Liga[]>([]);
   const [equipos, setEquipos] = useState<string[]>([]);
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
   const [searchParams] = useSearchParams();
+  const isSelecciones = filters.liga === SELECCIONES;
+
+  // National-teams section figures, from the real products
+  const selecciones = useMemo(() => allProducts.filter(p => p.liga === SELECCIONES), [allProducts]);
+  const seleccionesCountries = useMemo(() => new Set(selecciones.map(p => p.equipo)).size, [selecciones]);
+
+  // Country and season options with counts, given the other active filters (never empty options)
+  const paises = useMemo(
+    () => (isSelecciones ? countBy(filterProducts(allProducts, { ...filters, equipo: null }), p => p.equipo) : []),
+    [allProducts, filters, isSelecciones]
+  );
+  const paisesTotal = useMemo(() => paises.reduce((sum, p) => sum + p.count, 0), [paises]);
+  const temporadas = useMemo(
+    () => (isSelecciones
+      ? sortTemporadas(filterProducts(allProducts, { ...filters, temporada: null }).flatMap(p => (p.temporada ? [p.temporada] : [])))
+      : []),
+    [allProducts, filters, isSelecciones]
+  );
 
   // Count active filters for the badge
-  const activeFilterCount = [filters.liga, filters.equipo, filters.tipo, filters.query].filter(Boolean).length;
+  const activeFilterCount = [filters.liga, filters.equipo, filters.tipo, filters.temporada, filters.query].filter(Boolean).length;
+
+  // Changing the category resets the filters that only make sense inside it
+  const selectLiga = useCallback((value: Liga | null) => {
+    setFilter('liga', value);
+    setFilter('equipo', null);
+    setFilter('temporada', null);
+  }, [setFilter]);
 
   // Initialize from query strings on mount
   useEffect(() => {
@@ -163,12 +207,15 @@ export default function Catalog() {
     getLigas().then(setLigas);
   }, []);
 
-  // Sincronizar ruta /catalogo/:liga con el estado de filtros
+  // Sincronizar ruta /catalogo/:liga con el estado de filtros (también al volver a /catalogo desde el menú)
   useEffect(() => {
-    if (liga && ligas.includes(liga as Liga)) {
-      setFilter('liga', liga as Liga);
+    if (liga) {
+      if (ligas.includes(liga as Liga) && filters.liga !== liga) selectLiga(liga as Liga);
+    } else if (filters.liga) {
+      selectLiga(null);
     }
-  }, [liga, ligas, setFilter]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [liga, ligas, selectLiga]);
 
   // Cargar equipos cuando cambia la liga
   useEffect(() => {
@@ -193,6 +240,8 @@ export default function Catalog() {
   const handleFilterChange = (key: keyof typeof filters, value: any) => {
     if (key === 'liga') {
       navigate(value ? `/catalogo/${value}` : `/catalogo`, { replace: true });
+      selectLiga(value);
+      return;
     }
     setFilter(key, value);
   };
@@ -206,18 +255,33 @@ export default function Catalog() {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 animate-fade-in">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 md:pt-12 animate-fade-in">
       <Helmet>
-        <title>{liga ? `${liga} | Catálogo | Club Kit` : 'Catálogo | Club Kit'}</title>
-        <meta name="description" content={`Explora nuestra colección completa de jerseys oficiales${liga ? ` de la ${liga}` : ''}. Las mejores equipaciones en versión jugador y aficionado.`} />
-        <meta property="og:title" content={liga ? `${liga} | Catálogo | Club Kit` : 'Catálogo | Club Kit'} />
+        <title>{isSelecciones ? 'Selecciones nacionales | Club Kit' : liga ? `${liga} | Catálogo | Club Kit` : 'Catálogo | Club Kit'}</title>
+        <meta name="description" content={isSelecciones
+          ? 'Camisetas de selecciones nacionales: México y más selecciones, ediciones actuales, versiones de jugador y clásicos retro.'
+          : `Explora nuestra colección completa de jerseys oficiales${liga ? ` de la ${liga}` : ''}. Las mejores equipaciones en versión jugador y aficionado.`} />
+        <meta property="og:title" content={isSelecciones ? 'Selecciones nacionales | Club Kit' : liga ? `${liga} | Catálogo | Club Kit` : 'Catálogo | Club Kit'} />
       </Helmet>
-      <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
-        <SectionTitle
-          title="Catálogo"
-          subtitle="Explora nuestra colección completa de camisetas oficiales."
-        />
-        <div className="w-full md:w-96 flex gap-3">
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-5 md:gap-6 mb-8 md:mb-12">
+        {isSelecciones ? (
+          <div className="flex flex-col gap-3">
+            <NewSectionTag variant="solid" className="w-fit" />
+            <SectionTitle
+              title="Selecciones"
+              subtitle={`Camisetas de ${seleccionesCountries} selecciones nacionales: ediciones actuales, versiones de jugador y clásicos retro.`}
+            />
+          </div>
+        ) : (
+          <div className="min-w-0">
+            <SectionTitle
+              title="Catálogo"
+              subtitle="Explora nuestra colección completa de camisetas oficiales."
+            />
+            {seleccionesCountries > 0 && <DiscoverSelecciones countries={seleccionesCountries} />}
+          </div>
+        )}
+        <div className="w-full md:w-96 flex gap-2.5">
           <Input
             placeholder="Buscar equipos o selecciones..."
             icon={<Search className="w-5 h-5" />}
@@ -251,70 +315,84 @@ export default function Catalog() {
         isOpen={isMobileFiltersOpen}
         onClose={() => setIsMobileFiltersOpen(false)}
         activeFilterCount={activeFilterCount}
+        resultCount={totalResults}
       >
         <FilterSidebar
           ligas={ligas}
           equipos={equipos}
+          paises={paises}
+          paisesTotal={paisesTotal}
+          temporadas={temporadas}
+          seleccionesTotal={selecciones.length}
           selectedLiga={filters.liga}
           selectedEquipo={filters.equipo}
           selectedTipo={filters.tipo}
+          selectedTemporada={filters.temporada}
           onFilterChange={handleFilterChange}
         />
       </MobileFilterDrawer>
 
-      <div className="flex flex-col lg:flex-row gap-12 relative items-start">
+      <div className="flex flex-col lg:flex-row gap-10 xl:gap-14 relative items-start">
         {/* Desktop Sidebar Filters */}
-        <aside className="hidden lg:block w-56 flex-shrink-0">
-          <div className="sticky top-24">
+        <aside className="hidden lg:block w-60 flex-shrink-0 -ml-3" aria-label="Filtros">
+          <div className="sticky top-24 max-h-[calc(100vh-7rem)] overflow-y-auto custom-scrollbar pb-6">
             <FilterSidebar
               ligas={ligas}
               equipos={equipos}
+              paises={paises}
+              paisesTotal={paisesTotal}
+              temporadas={temporadas}
+              seleccionesTotal={selecciones.length}
               selectedLiga={filters.liga}
               selectedEquipo={filters.equipo}
               selectedTipo={filters.tipo}
+              selectedTemporada={filters.temporada}
               onFilterChange={handleFilterChange}
             />
           </div>
         </aside>
 
-        {/* Main Content */}
-        <main className="flex-1 min-w-0">
-          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
+        {/* Results */}
+        <section className="flex-1 min-w-0" aria-label="Productos">
+          <div className="flex flex-col-reverse sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-4 mb-6 min-h-8">
             <ActiveFilters
               filters={filters}
               onClear={clearFilters}
               onRemove={removeFilter}
             />
             {!isLoading && (
-              <p className="text-sm text-gray-500 dark:text-gray-400 font-medium flex-shrink-0">
-                Mostrando <span className="text-gray-900 dark:text-white font-bold">{products.length}</span> de <span className="text-gray-900 dark:text-white font-bold">{totalResults}</span>
+              <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-400 font-medium flex-shrink-0 sm:ml-auto">
+                <span className="text-gray-900 dark:text-white font-semibold">{totalResults.toLocaleString('es-MX')}</span>{' '}
+                {totalResults === 1 ? 'producto' : 'productos'}
               </p>
             )}
           </div>
 
           {isLoading ? (
-            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 gap-x-3 gap-y-8 sm:gap-x-5 sm:gap-y-10 md:grid-cols-3 xl:grid-cols-4">
               {[...Array(12)].map((_, i) => (
-                <div key={i} className="animate-pulse flex flex-col gap-3 p-2">
-                  <div className="aspect-[4/5] bg-gray-100 dark:bg-white/5 rounded-[20px] w-full" />
-                  <div className="h-3 bg-gray-100 dark:bg-white/5 rounded w-1/3 ml-1.5" />
-                  <div className="h-4 bg-gray-100 dark:bg-white/5 rounded w-2/3 ml-1.5" />
-                  <div className="h-6 bg-gray-100 dark:bg-white/5 rounded w-1/4 mt-2 ml-1.5" />
+                <div key={i} className="animate-pulse flex flex-col gap-3.5">
+                  <div className="aspect-[4/5] bg-gray-100 dark:bg-white/[0.04] rounded-2xl w-full" />
+                  <div className="h-2.5 bg-gray-100 dark:bg-white/[0.04] rounded w-1/2" />
+                  <div className="h-3.5 bg-gray-100 dark:bg-white/[0.04] rounded w-4/5" />
+                  <div className="h-4 bg-gray-100 dark:bg-white/[0.04] rounded w-1/4" />
                 </div>
               ))}
             </div>
           ) : products.length === 0 ? (
             <EmptyState onClear={clearFilters} />
           ) : (
-            <div className="flex flex-col gap-12 pb-12">
+            <div className="flex flex-col gap-12">
               <ProductGrid products={products} />
               {hasMore && (
-                <div className="flex justify-center">
+                <div className="flex flex-col items-center gap-3">
+                  <p className="text-xs text-gray-400 dark:text-gray-500">
+                    Viendo {products.length} de {totalResults.toLocaleString('es-MX')}
+                  </p>
                   <Button
                     variant="secondary"
-                    size="lg"
                     onClick={loadMore}
-                    className="w-full max-w-xs"
+                    className="w-full max-w-xs text-sm font-semibold"
                   >
                     Cargar más productos
                   </Button>
@@ -322,7 +400,7 @@ export default function Catalog() {
               )}
             </div>
           )}
-        </main>
+        </section>
       </div>
     </div>
   );

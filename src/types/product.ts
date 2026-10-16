@@ -4,12 +4,15 @@ export type Liga =
   | 'Serie A'
   | 'Bundesliga'
   | 'Ligue 1'
-  | 'Liga MX';
+  | 'Liga MX'
+  | 'Selecciones';
 
 export type TipoManga = 'Manga corta' | 'Manga larga';
 
 export interface Product {
   id: number;
+  /** Stable Yupoo album id, used to sync availability (data/availability.json). */
+  albumId?: string;
   slug: string;
   liga: Liga;
   equipo: string;
@@ -18,4 +21,7 @@ export interface Product {
   thumbnail: string;
   url: string;
   imagenes: string[];
+  /** Season and size range as written by the supplier (national teams only). */
+  temporada?: string;
+  tallas?: string;
 }

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, X, Command } from 'lucide-react';
-import { getProducts, getLigas } from '../../services/catalog.service';
+import { getProducts, getLigas, normalizeText, ligaPath } from '../../services/catalog.service';
 import type { Product } from '../../types/product';
 import { ProductImage } from '../ui/ProductImage';
 
@@ -50,22 +50,22 @@ export function GlobalSearch() {
     }
 
     const search = async () => {
-      const q = query.toLowerCase();
-      
+      const q = normalizeText(query);
+
       const allProducts = await getProducts();
       const allLigas = await getLigas();
-      
+
       // Match Ligas
-      const matchedLigas = allLigas.filter(l => l.toLowerCase().includes(q));
-      
+      const matchedLigas = allLigas.filter(l => normalizeText(l).includes(q));
+
       // Match Equipos (extract unique teams across catalog)
       const allEquipos = Array.from(new Set(allProducts.map(p => p.equipo)));
-      const matchedEquipos = allEquipos.filter(e => e.toLowerCase().includes(q)).slice(0, 5);
+      const matchedEquipos = allEquipos.filter(e => normalizeText(e).includes(q)).slice(0, 5);
 
       // Match Products (limit to 5)
-      const matchedProducts = allProducts.filter(p => 
-        p.nombre.toLowerCase().includes(q) || 
-        p.equipo.toLowerCase().includes(q)
+      const matchedProducts = allProducts.filter(p =>
+        normalizeText(p.nombre).includes(q) ||
+        normalizeText(p.equipo).includes(q)
       ).slice(0, 5);
 
       setResults({
@@ -157,7 +157,7 @@ export function GlobalSearch() {
                       {results.ligas.map((liga, i) => (
                         <button
                           key={liga}
-                          onClick={() => handleNavigate(`/coleccion/${liga.toLowerCase().replace(/\s+/g, '-')}`)}
+                          onClick={() => handleNavigate(ligaPath(liga))}
                           className="w-full text-left px-4 py-3 flex items-center justify-between hover:bg-gray-50 dark:hover:bg-white/5 rounded-xl transition-colors group animate-fade-up"
                           style={{ animationDelay: `${i * 30}ms` }}
                         >

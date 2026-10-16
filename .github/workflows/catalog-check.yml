@@ -1,0 +1,88 @@
+# Checks a batch of Yupoo albums (club leagues and national teams) twice a day: repairs broken thumbnails with
+# another valid photo of the album, takes out of the store products whose album
+# was deleted or has no valid photo (confirmed by a second check ≥24h later) and
+# restores those that come back. Commits data/availability.json, reports/ and the
+# public catalog (package.json "catalogCheck.publicCatalog"); Netlify redeploys
+# only when the public catalog or the site changes (see netlify.toml).
+#
+# A red run means: Yupoo was failing (exit 2) or the safety guard suspended
+# hides (exit 3). Nothing was hidden in that case; see reports/catalog-status.md.
+# To approve a suspended mass change: Actions → Catalog check → Run workflow →
+# tick "allow_mass_changes". To add national-team jerseys the supplier published
+# since the last import, tick "import_national_teams" (existing products are kept).
+name: Catalog check
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+    - cron: "17 17 * * *"
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "Albums to check (number or 'all')"
+        default: "250"
+      allow_mass_changes:
+        description: "Apply hides even above the safety limit (review the report first)"
+        type: boolean
+        default: false
+      import_national_teams:
+        description: "Also import new national-team jerseys from the supplier (never replaces existing products)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Test checker
+        run: node --test "scripts/catalog-check/tests/*.test.ts"
+
+      - name: Import new national-team jerseys
+        if: ${{ inputs.import_national_teams }}
+        run: node scripts/catalog-check/import-national-teams.ts --time-budget-min 25
+
+      - name: Check catalog
+        id: check
+        continue-on-error: true
+        run: >
+          node scripts/catalog-check/run.ts
+          --batch "${{ inputs.batch || '250' }}"
+          --time-budget-min 30
+          ${{ inputs.allow_mass_changes && '--allow-mass-changes' || '' }}
+
+      - name: Verify generated catalog
+        run: node --test --test-name-pattern="repository data" "scripts/catalog-check/tests/catalog.test.ts"
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          PUBLIC_CATALOG=$(node -p "require('./package.json').catalogCheck?.publicCatalog ?? 'public/catalog.json'")
+          git add data/availability.json data/catalog.master.json "$PUBLIC_CATALOG" reports
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore(catalog): availability check $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Fail if the check stopped or suspended changes
+        if: steps.check.outcome == 'failure'
+        run: |
+          tail -n 25 reports/catalog-status.md || true
+          exit 1

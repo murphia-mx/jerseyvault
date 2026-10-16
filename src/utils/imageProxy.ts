@@ -1,4 +1,10 @@
 /**
+ * `?v=` is ignored by the proxy but busts browser caches: before v2 the proxy
+ * cached Yupoo's "image unavailable" PNG for a year. Bump to invalidate again.
+ */
+const PROXY_CACHE_VERSION = "2";
+
+/**
  * Rewrites a Yupoo image URL to go through our proxy route.
  *
  * WHY THIS IS NECESSARY:
@@ -31,7 +37,7 @@ export function getProxiedImageUrl(url: string | undefined | null): string | und
   // Extract the path after the hostname and rewrite to our proxy route
   try {
     const parsed = new URL(url);
-    return `/img-proxy${parsed.pathname}`;
+    return `/img-proxy${parsed.pathname}?v=${PROXY_CACHE_VERSION}`;
   } catch {
     // If URL parsing fails, return undefined so the fallback chain activates
     return undefined;

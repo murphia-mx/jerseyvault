@@ -40,6 +40,7 @@ export function ProductInfo({ product, onOpenLightbox }: ProductInfoProps) {
         <div className="flex items-center gap-2 flex-wrap">
           <Badge variant="liga">{product.liga}</Badge>
           <Badge variant="tipo">{product.tipo}</Badge>
+          {product.temporada && <Badge variant="default">Temporada {product.temporada}</Badge>}
         </div>
         <div className="flex flex-col gap-1">
           <p className="text-sm font-bold tracking-widest uppercase text-gray-500 dark:text-gray-400">

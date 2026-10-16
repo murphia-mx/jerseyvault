@@ -7,6 +7,7 @@ const initialFilters: CatalogFilters = {
   liga: null,
   equipo: null,
   tipo: null,
+  temporada: null,
   query: '',
 };
 
@@ -67,6 +68,7 @@ export function useCatalog() {
   }, []);
 
   return {
+    allProducts, // Full catalog, for facet counts
     products, // Sliced array for DOM rendering
     isLoading,
     filters,

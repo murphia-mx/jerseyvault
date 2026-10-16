@@ -54,9 +54,11 @@ export default function CartDrawer() {
         aria-modal="true"
         aria-label="Tu pedido"
         className={cn(
-          'fixed inset-y-0 right-0 z-50 flex flex-col w-full max-w-md bg-white dark:bg-[#0a0a0a] shadow-[0_0_40px_rgba(0,0,0,0.1)] dark:shadow-[0_0_60px_rgba(0,0,0,0.5)] border-l border-transparent dark:border-white/5',
+          'fixed inset-y-0 right-0 z-50 flex flex-col w-full max-w-md bg-white dark:bg-[#0a0a0a] border-l border-transparent dark:border-white/5',
           'transition-transform duration-300 ease-in-out will-change-transform',
-          isOpen ? 'translate-x-0' : 'translate-x-full'
+          isOpen
+            ? 'translate-x-0 shadow-[0_0_40px_rgba(0,0,0,0.1)] dark:shadow-[0_0_60px_rgba(0,0,0,0.5)]'
+            : 'translate-x-full shadow-none'
         )}
       >
         {/* Header */}

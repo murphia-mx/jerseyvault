@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ChevronRight } from 'lucide-react';
-import { getProductBySlug, getProducts } from '../services/catalog.service';
+import { getProductBySlug, getProducts, ligaPath } from '../services/catalog.service';
 import type { Product } from '../types/product';
 import { ProductViewer } from '../components/product/ProductGallery';
 import { ProductInfo } from '../components/product/ProductInfo';
@@ -106,16 +106,12 @@ export default function Product() {
         className="flex items-center gap-1.5 text-sm text-gray-400 dark:text-gray-500 mb-10"
         aria-label="Breadcrumb"
       >
-        <Link to="/" className="hover:text-gray-900 dark:hover:text-white transition-colors">
-          Inicio
-        </Link>
-        <ChevronRight className="w-3.5 h-3.5" />
         <Link to="/catalogo" className="hover:text-gray-900 dark:hover:text-white transition-colors">
           Catálogo
         </Link>
         <ChevronRight className="w-3.5 h-3.5" />
         <Link
-          to={`/coleccion/${product.liga.toLowerCase().replace(/\s+/g, '-')}`}
+          to={ligaPath(product.liga)}
           className="hover:text-gray-900 dark:hover:text-white transition-colors"
         >
           {product.liga}

@@ -146,12 +146,12 @@ export default function Collection() {
 
       {/* Products */}
       {isLoading ? (
-        <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 gap-x-3 gap-y-8 sm:gap-x-5 sm:gap-y-10 md:grid-cols-3 xl:grid-cols-4">
           {[...Array(12)].map((_, i) => (
-            <div key={i} className="animate-pulse flex flex-col gap-3 p-2">
-              <div className="aspect-[4/5] bg-gray-100 dark:bg-white/5 rounded-[20px] w-full"></div>
-              <div className="h-3 bg-gray-100 dark:bg-white/5 rounded w-1/3 ml-1.5"></div>
-              <div className="h-4 bg-gray-100 dark:bg-white/5 rounded w-2/3 ml-1.5"></div>
+            <div key={i} className="animate-pulse flex flex-col gap-3.5">
+              <div className="aspect-[4/5] bg-gray-100 dark:bg-white/[0.04] rounded-2xl w-full"></div>
+              <div className="h-2.5 bg-gray-100 dark:bg-white/[0.04] rounded w-1/2"></div>
+              <div className="h-3.5 bg-gray-100 dark:bg-white/[0.04] rounded w-4/5"></div>
             </div>
           ))}
         </div>
