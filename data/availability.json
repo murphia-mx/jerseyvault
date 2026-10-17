@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17T09:34:20.851Z",
+  "updatedAt": "2026-10-17T19:34:55.343Z",
   "albums": {
     "14531062": {
       "status": "ok",
@@ -755,7 +755,7 @@
       "lastOkAt": "2026-10-16T06:43:07.799Z"
     },
     "84467418": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -767,16 +767,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:01.758Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:43:09.524Z",
+      "lastCheckedAt": "2026-10-17T19:28:01.758Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:43:09.524Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "84503923": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -788,9 +793,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:03.036Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:43:10.826Z",
+      "lastCheckedAt": "2026-10-17T19:28:03.036Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:43:10.826Z",
       "hiddenReason": "album_deleted",
@@ -1045,7 +1055,7 @@
       "lastOkAt": "2026-10-16T06:44:46.002Z"
     },
     "90366998": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -1057,9 +1067,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:04.518Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:44:47.691Z",
+      "lastCheckedAt": "2026-10-17T19:28:04.518Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:44:47.691Z",
       "hiddenReason": "album_deleted",
@@ -1330,7 +1345,7 @@
       "lastOkAt": "2026-10-16T06:46:19.243Z"
     },
     "96144775": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -1342,9 +1357,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:07.179Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:46:20.893Z",
+      "lastCheckedAt": "2026-10-17T19:28:07.179Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:46:20.893Z",
       "hiddenReason": "album_deleted",
@@ -1359,7 +1379,7 @@
       "lastOkAt": "2026-10-16T06:46:23.679Z"
     },
     "96244809": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -1371,16 +1391,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:07.513Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:46:25.240Z",
+      "lastCheckedAt": "2026-10-17T19:28:07.513Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:46:25.240Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "96244962": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -1392,9 +1417,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:08.934Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:46:26.750Z",
+      "lastCheckedAt": "2026-10-17T19:28:08.934Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:46:26.750Z",
       "hiddenReason": "album_deleted",
@@ -1497,7 +1527,7 @@
       "lastOkAt": "2026-10-16T06:47:00.623Z"
     },
     "97219771": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -1509,16 +1539,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:10.156Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:47:02.368Z",
+      "lastCheckedAt": "2026-10-17T19:28:10.156Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:47:02.368Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "97219774": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -1530,16 +1565,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:11.561Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:47:03.704Z",
+      "lastCheckedAt": "2026-10-17T19:28:11.561Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:47:03.704Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "97625755": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -1551,9 +1591,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:12.935Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:47:04.912Z",
+      "lastCheckedAt": "2026-10-17T19:28:12.935Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:47:04.912Z",
       "hiddenReason": "album_deleted",
@@ -1696,7 +1741,7 @@
       "lastOkAt": "2026-10-16T19:58:13.196Z"
     },
     "102106744": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -1713,9 +1758,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:14.522Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:47:37.169Z",
+      "lastCheckedAt": "2026-10-17T19:28:14.522Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:47:37.169Z",
       "hiddenReason": "album_deleted",
@@ -1890,7 +1940,7 @@
       "lastOkAt": "2026-10-16T19:59:12.351Z"
     },
     "110372846": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -1907,9 +1957,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:15.738Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:47:40.288Z",
+      "lastCheckedAt": "2026-10-17T19:28:15.738Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:47:40.288Z",
       "hiddenReason": "album_deleted",
@@ -2100,7 +2155,7 @@
       "lastOkAt": "2026-10-16T20:00:05.012Z"
     },
     "113915913": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -2117,9 +2172,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:17.245Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:47:40.621Z",
+      "lastCheckedAt": "2026-10-17T19:28:17.245Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:47:40.621Z",
       "hiddenReason": "album_deleted",
@@ -2278,7 +2338,7 @@
       "lastOkAt": "2026-10-16T20:00:59.517Z"
     },
     "116340759": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -2295,9 +2355,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:18.765Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:47:42.165Z",
+      "lastCheckedAt": "2026-10-17T19:28:18.765Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:47:42.165Z",
       "hiddenReason": "album_deleted",
@@ -2312,7 +2377,7 @@
       "lastOkAt": "2026-10-16T20:01:02.117Z"
     },
     "116561915": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -2329,9 +2394,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:19.955Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:47:44.364Z",
+      "lastCheckedAt": "2026-10-17T19:28:19.955Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:47:44.364Z",
       "hiddenReason": "album_deleted",
@@ -7890,8 +7960,8 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:13.281Z",
-      "lastOkAt": "2026-10-16T05:26:13.281Z"
+      "lastCheckedAt": "2026-10-17T19:28:22.874Z",
+      "lastOkAt": "2026-10-17T19:28:22.874Z"
     },
     "186520354": {
       "status": "unavailable",
@@ -7924,16 +7994,16 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:17.307Z",
-      "lastOkAt": "2026-10-16T05:26:17.307Z"
+      "lastCheckedAt": "2026-10-17T19:28:24.935Z",
+      "lastOkAt": "2026-10-17T19:28:24.935Z"
     },
     "186520656": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:19.791Z",
-      "lastOkAt": "2026-10-16T05:26:19.791Z"
+      "lastCheckedAt": "2026-10-17T19:28:27.659Z",
+      "lastOkAt": "2026-10-17T19:28:27.659Z"
     },
     "187129167": {
       "status": "unavailable",
@@ -7966,32 +8036,32 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:26.161Z",
-      "lastOkAt": "2026-10-16T05:26:26.161Z"
+      "lastCheckedAt": "2026-10-17T19:28:30.259Z",
+      "lastOkAt": "2026-10-17T19:28:30.259Z"
     },
     "187342625": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:28.779Z",
-      "lastOkAt": "2026-10-16T05:26:28.779Z"
+      "lastCheckedAt": "2026-10-17T19:28:32.831Z",
+      "lastOkAt": "2026-10-17T19:28:32.831Z"
     },
     "187342636": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:31.854Z",
-      "lastOkAt": "2026-10-16T05:26:31.854Z"
+      "lastCheckedAt": "2026-10-17T19:28:35.925Z",
+      "lastOkAt": "2026-10-17T19:28:35.925Z"
     },
     "188798103": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:34.809Z",
-      "lastOkAt": "2026-10-16T05:26:34.809Z"
+      "lastCheckedAt": "2026-10-17T19:28:38.940Z",
+      "lastOkAt": "2026-10-17T19:28:38.940Z"
     },
     "188798119": {
       "status": "unavailable",
@@ -8024,16 +8094,16 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:39.313Z",
-      "lastOkAt": "2026-10-16T05:26:39.313Z"
+      "lastCheckedAt": "2026-10-17T19:28:41.778Z",
+      "lastOkAt": "2026-10-17T19:28:41.778Z"
     },
     "188798306": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:43.155Z",
-      "lastOkAt": "2026-10-16T05:26:43.155Z"
+      "lastCheckedAt": "2026-10-17T19:28:44.766Z",
+      "lastOkAt": "2026-10-17T19:28:44.766Z"
     },
     "188798363": {
       "status": "unavailable",
@@ -8092,16 +8162,16 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:48.671Z",
-      "lastOkAt": "2026-10-16T05:26:48.671Z"
+      "lastCheckedAt": "2026-10-17T19:28:47.704Z",
+      "lastOkAt": "2026-10-17T19:28:47.704Z"
     },
     "188799034": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:51.109Z",
-      "lastOkAt": "2026-10-16T05:26:51.109Z"
+      "lastCheckedAt": "2026-10-17T19:28:50.479Z",
+      "lastOkAt": "2026-10-17T19:28:50.479Z"
     },
     "188799144": {
       "status": "unavailable",
@@ -8134,112 +8204,112 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:55.110Z",
-      "lastOkAt": "2026-10-16T05:26:55.110Z"
+      "lastCheckedAt": "2026-10-17T19:28:53.251Z",
+      "lastOkAt": "2026-10-17T19:28:53.251Z"
     },
     "188799410": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:26:59.546Z",
-      "lastOkAt": "2026-10-16T05:26:59.546Z"
+      "lastCheckedAt": "2026-10-17T19:28:56.166Z",
+      "lastOkAt": "2026-10-17T19:28:56.166Z"
     },
     "188799460": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:02.280Z",
-      "lastOkAt": "2026-10-16T05:27:02.280Z"
+      "lastCheckedAt": "2026-10-17T19:28:58.962Z",
+      "lastOkAt": "2026-10-17T19:28:58.962Z"
     },
     "188799687": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:05.223Z",
-      "lastOkAt": "2026-10-16T05:27:05.223Z"
+      "lastCheckedAt": "2026-10-17T19:29:02.034Z",
+      "lastOkAt": "2026-10-17T19:29:02.034Z"
     },
     "188839562": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:10.136Z",
-      "lastOkAt": "2026-10-16T05:27:10.136Z"
+      "lastCheckedAt": "2026-10-17T19:29:04.875Z",
+      "lastOkAt": "2026-10-17T19:29:04.875Z"
     },
     "188839701": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:13.041Z",
-      "lastOkAt": "2026-10-16T05:27:13.041Z"
+      "lastCheckedAt": "2026-10-17T19:29:07.562Z",
+      "lastOkAt": "2026-10-17T19:29:07.562Z"
     },
     "189342284": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:15.790Z",
-      "lastOkAt": "2026-10-16T05:27:15.790Z"
+      "lastCheckedAt": "2026-10-17T19:29:10.483Z",
+      "lastOkAt": "2026-10-17T19:29:10.483Z"
     },
     "189343404": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:18.259Z",
-      "lastOkAt": "2026-10-16T05:27:18.259Z"
+      "lastCheckedAt": "2026-10-17T19:29:13.458Z",
+      "lastOkAt": "2026-10-17T19:29:13.458Z"
     },
     "189378857": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:21.260Z",
-      "lastOkAt": "2026-10-16T05:27:21.260Z"
+      "lastCheckedAt": "2026-10-17T19:29:16.379Z",
+      "lastOkAt": "2026-10-17T19:29:16.379Z"
     },
     "189378938": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:26.360Z",
-      "lastOkAt": "2026-10-16T05:27:26.360Z"
+      "lastCheckedAt": "2026-10-17T19:29:19.451Z",
+      "lastOkAt": "2026-10-17T19:29:19.451Z"
     },
     "189379060": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:29.050Z",
-      "lastOkAt": "2026-10-16T05:27:29.050Z"
+      "lastCheckedAt": "2026-10-17T19:29:22.312Z",
+      "lastOkAt": "2026-10-17T19:29:22.312Z"
     },
     "189379372": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:32.269Z",
-      "lastOkAt": "2026-10-16T05:27:32.269Z"
+      "lastCheckedAt": "2026-10-17T19:29:25.448Z",
+      "lastOkAt": "2026-10-17T19:29:25.448Z"
     },
     "189379486": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:34.349Z",
-      "lastOkAt": "2026-10-16T05:27:34.349Z"
+      "lastCheckedAt": "2026-10-17T19:29:28.410Z",
+      "lastOkAt": "2026-10-17T19:29:28.410Z"
     },
     "189379609": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:37.329Z",
-      "lastOkAt": "2026-10-16T05:27:37.329Z"
+      "lastCheckedAt": "2026-10-17T19:29:31.248Z",
+      "lastOkAt": "2026-10-17T19:29:31.248Z"
     },
     "189425993": {
       "status": "unavailable",
@@ -8272,16 +8342,16 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:44.694Z",
-      "lastOkAt": "2026-10-16T05:27:44.694Z"
+      "lastCheckedAt": "2026-10-17T19:29:33.971Z",
+      "lastOkAt": "2026-10-17T19:29:33.971Z"
     },
     "189641591": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:47.468Z",
-      "lastOkAt": "2026-10-16T05:27:47.468Z"
+      "lastCheckedAt": "2026-10-17T19:29:36.627Z",
+      "lastOkAt": "2026-10-17T19:29:36.627Z"
     },
     "189879701": {
       "status": "unavailable",
@@ -8314,56 +8384,56 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:51.615Z",
-      "lastOkAt": "2026-10-16T05:27:51.615Z"
+      "lastCheckedAt": "2026-10-17T19:29:39.477Z",
+      "lastOkAt": "2026-10-17T19:29:39.477Z"
     },
     "189879772": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:54.709Z",
-      "lastOkAt": "2026-10-16T05:27:54.709Z"
+      "lastCheckedAt": "2026-10-17T19:29:42.371Z",
+      "lastOkAt": "2026-10-17T19:29:42.371Z"
     },
     "189879809": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:27:57.326Z",
-      "lastOkAt": "2026-10-16T05:27:57.326Z"
+      "lastCheckedAt": "2026-10-17T19:29:45.094Z",
+      "lastOkAt": "2026-10-17T19:29:45.094Z"
     },
     "189879839": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:00.294Z",
-      "lastOkAt": "2026-10-16T05:28:00.294Z"
+      "lastCheckedAt": "2026-10-17T19:29:48.159Z",
+      "lastOkAt": "2026-10-17T19:29:48.159Z"
     },
     "189879950": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:03.037Z",
-      "lastOkAt": "2026-10-16T05:28:03.037Z"
+      "lastCheckedAt": "2026-10-17T19:29:51.001Z",
+      "lastOkAt": "2026-10-17T19:29:51.001Z"
     },
     "190492872": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:05.829Z",
-      "lastOkAt": "2026-10-16T05:28:05.829Z"
+      "lastCheckedAt": "2026-10-17T19:29:53.803Z",
+      "lastOkAt": "2026-10-17T19:29:53.803Z"
     },
     "190494623": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:08.709Z",
-      "lastOkAt": "2026-10-16T05:28:08.709Z"
+      "lastCheckedAt": "2026-10-17T19:29:56.728Z",
+      "lastOkAt": "2026-10-17T19:29:56.728Z"
     },
     "190494854": {
       "status": "unavailable",
@@ -8422,56 +8492,56 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:14.636Z",
-      "lastOkAt": "2026-10-16T05:28:14.636Z"
+      "lastCheckedAt": "2026-10-17T19:29:59.343Z",
+      "lastOkAt": "2026-10-17T19:29:59.343Z"
     },
     "190495323": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:16.944Z",
-      "lastOkAt": "2026-10-16T05:28:16.944Z"
+      "lastCheckedAt": "2026-10-17T19:30:02.161Z",
+      "lastOkAt": "2026-10-17T19:30:02.161Z"
     },
     "190495425": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:19.732Z",
-      "lastOkAt": "2026-10-16T05:28:19.732Z"
+      "lastCheckedAt": "2026-10-17T19:30:04.877Z",
+      "lastOkAt": "2026-10-17T19:30:04.877Z"
     },
     "190495631": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:22.424Z",
-      "lastOkAt": "2026-10-16T05:28:22.424Z"
+      "lastCheckedAt": "2026-10-17T19:30:07.710Z",
+      "lastOkAt": "2026-10-17T19:30:07.710Z"
     },
     "190495826": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:25.031Z",
-      "lastOkAt": "2026-10-16T05:28:25.031Z"
+      "lastCheckedAt": "2026-10-17T19:30:10.591Z",
+      "lastOkAt": "2026-10-17T19:30:10.591Z"
     },
     "190495958": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:27.606Z",
-      "lastOkAt": "2026-10-16T05:28:27.606Z"
+      "lastCheckedAt": "2026-10-17T19:30:13.372Z",
+      "lastOkAt": "2026-10-17T19:30:13.372Z"
     },
     "190496031": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:30.641Z",
-      "lastOkAt": "2026-10-16T05:28:30.641Z"
+      "lastCheckedAt": "2026-10-17T19:30:16.084Z",
+      "lastOkAt": "2026-10-17T19:30:16.084Z"
     },
     "190496426": {
       "status": "unavailable",
@@ -8504,187 +8574,187 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:35.111Z",
-      "lastOkAt": "2026-10-16T05:28:35.111Z"
+      "lastCheckedAt": "2026-10-17T19:30:18.584Z",
+      "lastOkAt": "2026-10-17T19:30:18.584Z"
     },
     "190496779": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:37.787Z",
-      "lastOkAt": "2026-10-16T05:28:37.787Z"
+      "lastCheckedAt": "2026-10-17T19:30:21.494Z",
+      "lastOkAt": "2026-10-17T19:30:21.494Z"
     },
     "190501877": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:43.701Z",
-      "lastOkAt": "2026-10-16T05:28:43.701Z"
+      "lastCheckedAt": "2026-10-17T19:30:24.398Z",
+      "lastOkAt": "2026-10-17T19:30:24.398Z"
     },
     "190502024": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:49.309Z",
-      "lastOkAt": "2026-10-16T05:28:49.309Z"
+      "lastCheckedAt": "2026-10-17T19:30:27.264Z",
+      "lastOkAt": "2026-10-17T19:30:27.264Z"
     },
     "190502123": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:51.768Z",
-      "lastOkAt": "2026-10-16T05:28:51.768Z"
+      "lastCheckedAt": "2026-10-17T19:30:29.880Z",
+      "lastOkAt": "2026-10-17T19:30:29.880Z"
     },
     "190502753": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:54.383Z",
-      "lastOkAt": "2026-10-16T05:28:54.383Z"
+      "lastCheckedAt": "2026-10-17T19:30:32.702Z",
+      "lastOkAt": "2026-10-17T19:30:32.702Z"
     },
     "190503971": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:28:57.238Z",
-      "lastOkAt": "2026-10-16T05:28:57.238Z"
+      "lastCheckedAt": "2026-10-17T19:30:35.287Z",
+      "lastOkAt": "2026-10-17T19:30:35.287Z"
     },
     "190504161": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:00.305Z",
-      "lastOkAt": "2026-10-16T05:29:00.305Z"
+      "lastCheckedAt": "2026-10-17T19:30:38.068Z",
+      "lastOkAt": "2026-10-17T19:30:38.068Z"
     },
     "190504314": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:02.900Z",
-      "lastOkAt": "2026-10-16T05:29:02.900Z"
+      "lastCheckedAt": "2026-10-17T19:30:41.138Z",
+      "lastOkAt": "2026-10-17T19:30:41.138Z"
     },
     "190505695": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:05.858Z",
-      "lastOkAt": "2026-10-16T05:29:05.858Z"
+      "lastCheckedAt": "2026-10-17T19:30:43.621Z",
+      "lastOkAt": "2026-10-17T19:30:43.621Z"
     },
     "190506071": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:09.021Z",
-      "lastOkAt": "2026-10-16T05:29:09.021Z"
+      "lastCheckedAt": "2026-10-17T19:30:46.607Z",
+      "lastOkAt": "2026-10-17T19:30:46.607Z"
     },
     "190506180": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:11.866Z",
-      "lastOkAt": "2026-10-16T05:29:11.866Z"
+      "lastCheckedAt": "2026-10-17T19:30:49.348Z",
+      "lastOkAt": "2026-10-17T19:30:49.348Z"
     },
     "190506343": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:14.697Z",
-      "lastOkAt": "2026-10-16T05:29:14.697Z"
+      "lastCheckedAt": "2026-10-17T19:30:51.806Z",
+      "lastOkAt": "2026-10-17T19:30:51.806Z"
     },
     "190511527": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:17.402Z",
-      "lastOkAt": "2026-10-16T05:29:17.402Z"
+      "lastCheckedAt": "2026-10-17T19:30:54.701Z",
+      "lastOkAt": "2026-10-17T19:30:54.701Z"
     },
     "190512686": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:20.022Z",
-      "lastOkAt": "2026-10-16T05:29:20.022Z"
+      "lastCheckedAt": "2026-10-17T19:30:57.665Z",
+      "lastOkAt": "2026-10-17T19:30:57.665Z"
     },
     "190513115": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:23.102Z",
-      "lastOkAt": "2026-10-16T05:29:23.102Z"
+      "lastCheckedAt": "2026-10-17T19:31:00.505Z",
+      "lastOkAt": "2026-10-17T19:31:00.505Z"
     },
     "190514334": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:25.730Z",
-      "lastOkAt": "2026-10-16T05:29:25.730Z"
+      "lastCheckedAt": "2026-10-17T19:31:03.035Z",
+      "lastOkAt": "2026-10-17T19:31:03.035Z"
     },
     "190515446": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:32.764Z",
-      "lastOkAt": "2026-10-16T05:29:32.764Z"
+      "lastCheckedAt": "2026-10-17T19:31:05.572Z",
+      "lastOkAt": "2026-10-17T19:31:05.572Z"
     },
     "190515775": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:35.219Z",
-      "lastOkAt": "2026-10-16T05:29:35.219Z"
+      "lastCheckedAt": "2026-10-17T19:31:08.224Z",
+      "lastOkAt": "2026-10-17T19:31:08.224Z"
     },
     "191393814": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:37.881Z",
-      "lastOkAt": "2026-10-16T05:29:37.881Z"
+      "lastCheckedAt": "2026-10-17T19:31:10.898Z",
+      "lastOkAt": "2026-10-17T19:31:10.898Z"
     },
     "191393935": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:40.545Z",
-      "lastOkAt": "2026-10-16T05:29:40.545Z"
+      "lastCheckedAt": "2026-10-17T19:31:13.838Z",
+      "lastOkAt": "2026-10-17T19:31:13.838Z"
     },
     "191697535": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:43.395Z",
-      "lastOkAt": "2026-10-16T05:29:43.395Z"
+      "lastCheckedAt": "2026-10-17T19:31:16.752Z",
+      "lastOkAt": "2026-10-17T19:31:16.752Z"
     },
     "191697654": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:53.263Z",
-      "lastOkAt": "2026-10-16T05:29:53.263Z"
+      "lastCheckedAt": "2026-10-17T19:31:19.660Z",
+      "lastOkAt": "2026-10-17T19:31:19.660Z"
     },
     "191697804": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -8696,9 +8766,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:46.820Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:29:55.148Z",
+      "lastCheckedAt": "2026-10-17T19:25:46.820Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:29:55.148Z",
       "hiddenReason": "album_deleted",
@@ -8709,67 +8784,67 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:29:57.276Z",
-      "lastOkAt": "2026-10-16T05:29:57.276Z"
+      "lastCheckedAt": "2026-10-17T19:31:22.454Z",
+      "lastOkAt": "2026-10-17T19:31:22.454Z"
     },
     "191937918": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:00.163Z",
-      "lastOkAt": "2026-10-16T05:30:00.163Z"
+      "lastCheckedAt": "2026-10-17T19:31:25.498Z",
+      "lastOkAt": "2026-10-17T19:31:25.498Z"
     },
     "192174206": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:03.109Z",
-      "lastOkAt": "2026-10-16T05:30:03.109Z"
+      "lastCheckedAt": "2026-10-17T19:31:28.418Z",
+      "lastOkAt": "2026-10-17T19:31:28.418Z"
     },
     "192178185": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:05.867Z",
-      "lastOkAt": "2026-10-16T05:30:05.867Z"
+      "lastCheckedAt": "2026-10-17T19:31:31.292Z",
+      "lastOkAt": "2026-10-17T19:31:31.292Z"
     },
     "192384533": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:08.747Z",
-      "lastOkAt": "2026-10-16T05:30:08.747Z"
+      "lastCheckedAt": "2026-10-17T19:31:34.176Z",
+      "lastOkAt": "2026-10-17T19:31:34.176Z"
     },
     "192385313": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:11.743Z",
-      "lastOkAt": "2026-10-16T05:30:11.743Z"
+      "lastCheckedAt": "2026-10-17T19:31:36.696Z",
+      "lastOkAt": "2026-10-17T19:31:36.696Z"
     },
     "192385338": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:14.317Z",
-      "lastOkAt": "2026-10-16T05:30:14.317Z"
+      "lastCheckedAt": "2026-10-17T19:31:39.508Z",
+      "lastOkAt": "2026-10-17T19:31:39.508Z"
     },
     "192385415": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:16.809Z",
-      "lastOkAt": "2026-10-16T05:30:16.809Z"
+      "lastCheckedAt": "2026-10-17T19:31:42.561Z",
+      "lastOkAt": "2026-10-17T19:31:42.561Z"
     },
     "192670951": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -8781,16 +8856,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:47.825Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:30:18.387Z",
+      "lastCheckedAt": "2026-10-17T19:25:47.825Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:30:18.387Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "193039917": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -8802,9 +8882,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:48.895Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:30:19.753Z",
+      "lastCheckedAt": "2026-10-17T19:25:48.895Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:30:19.753Z",
       "hiddenReason": "album_deleted",
@@ -8815,203 +8900,203 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:22.188Z",
-      "lastOkAt": "2026-10-16T05:30:22.188Z"
+      "lastCheckedAt": "2026-10-17T19:31:45.420Z",
+      "lastOkAt": "2026-10-17T19:31:45.420Z"
     },
     "193040076": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:24.927Z",
-      "lastOkAt": "2026-10-16T05:30:24.927Z"
+      "lastCheckedAt": "2026-10-17T19:31:48.318Z",
+      "lastOkAt": "2026-10-17T19:31:48.318Z"
     },
     "193040308": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:27.611Z",
-      "lastOkAt": "2026-10-16T05:30:27.611Z"
+      "lastCheckedAt": "2026-10-17T19:31:51.357Z",
+      "lastOkAt": "2026-10-17T19:31:51.357Z"
     },
     "193040431": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:30.394Z",
-      "lastOkAt": "2026-10-16T05:30:30.394Z"
+      "lastCheckedAt": "2026-10-17T19:31:53.998Z",
+      "lastOkAt": "2026-10-17T19:31:53.998Z"
     },
     "193040526": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:33.245Z",
-      "lastOkAt": "2026-10-16T05:30:33.245Z"
+      "lastCheckedAt": "2026-10-17T19:31:57.072Z",
+      "lastOkAt": "2026-10-17T19:31:57.072Z"
     },
     "193323272": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:35.735Z",
-      "lastOkAt": "2026-10-16T05:30:35.735Z"
+      "lastCheckedAt": "2026-10-17T19:31:59.978Z",
+      "lastOkAt": "2026-10-17T19:31:59.978Z"
     },
     "193323344": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:41.824Z",
-      "lastOkAt": "2026-10-16T05:30:41.824Z"
+      "lastCheckedAt": "2026-10-17T19:32:02.980Z",
+      "lastOkAt": "2026-10-17T19:32:02.980Z"
     },
     "193323436": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:44.752Z",
-      "lastOkAt": "2026-10-16T05:30:44.752Z"
+      "lastCheckedAt": "2026-10-17T19:32:06.143Z",
+      "lastOkAt": "2026-10-17T19:32:06.143Z"
     },
     "193323532": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:48.336Z",
-      "lastOkAt": "2026-10-16T05:30:48.336Z"
+      "lastCheckedAt": "2026-10-17T19:32:08.846Z",
+      "lastOkAt": "2026-10-17T19:32:08.846Z"
     },
     "193323595": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:51.174Z",
-      "lastOkAt": "2026-10-16T05:30:51.174Z"
+      "lastCheckedAt": "2026-10-17T19:32:11.668Z",
+      "lastOkAt": "2026-10-17T19:32:11.668Z"
     },
     "193323640": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:30:59.127Z",
-      "lastOkAt": "2026-10-16T05:30:59.127Z"
+      "lastCheckedAt": "2026-10-17T19:32:14.374Z",
+      "lastOkAt": "2026-10-17T19:32:14.374Z"
     },
     "193323735": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:02.080Z",
-      "lastOkAt": "2026-10-16T05:31:02.080Z"
+      "lastCheckedAt": "2026-10-17T19:32:16.911Z",
+      "lastOkAt": "2026-10-17T19:32:16.911Z"
     },
     "193323815": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:04.929Z",
-      "lastOkAt": "2026-10-16T05:31:04.929Z"
+      "lastCheckedAt": "2026-10-17T19:32:19.577Z",
+      "lastOkAt": "2026-10-17T19:32:19.577Z"
     },
     "193323833": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:07.946Z",
-      "lastOkAt": "2026-10-16T05:31:07.946Z"
+      "lastCheckedAt": "2026-10-17T19:32:22.376Z",
+      "lastOkAt": "2026-10-17T19:32:22.376Z"
     },
     "193323913": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:10.791Z",
-      "lastOkAt": "2026-10-16T05:31:10.791Z"
+      "lastCheckedAt": "2026-10-17T19:32:25.315Z",
+      "lastOkAt": "2026-10-17T19:32:25.315Z"
     },
     "193673167": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:13.316Z",
-      "lastOkAt": "2026-10-16T05:31:13.316Z"
+      "lastCheckedAt": "2026-10-17T19:32:28.438Z",
+      "lastOkAt": "2026-10-17T19:32:28.438Z"
     },
     "193673271": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:15.845Z",
-      "lastOkAt": "2026-10-16T05:31:15.845Z"
+      "lastCheckedAt": "2026-10-17T19:32:31.349Z",
+      "lastOkAt": "2026-10-17T19:32:31.349Z"
     },
     "193673359": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:18.727Z",
-      "lastOkAt": "2026-10-16T05:31:18.727Z"
+      "lastCheckedAt": "2026-10-17T19:32:34.218Z",
+      "lastOkAt": "2026-10-17T19:32:34.218Z"
     },
     "194269618": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:21.647Z",
-      "lastOkAt": "2026-10-16T05:31:21.647Z"
+      "lastCheckedAt": "2026-10-17T19:32:37.125Z",
+      "lastOkAt": "2026-10-17T19:32:37.125Z"
     },
     "194270121": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:24.344Z",
-      "lastOkAt": "2026-10-16T05:31:24.344Z"
+      "lastCheckedAt": "2026-10-17T19:32:39.938Z",
+      "lastOkAt": "2026-10-17T19:32:39.938Z"
     },
     "194450095": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:27.308Z",
-      "lastOkAt": "2026-10-16T05:31:27.308Z"
+      "lastCheckedAt": "2026-10-17T19:32:42.926Z",
+      "lastOkAt": "2026-10-17T19:32:42.926Z"
     },
     "194451088": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:30.074Z",
-      "lastOkAt": "2026-10-16T05:31:30.074Z"
+      "lastCheckedAt": "2026-10-17T19:32:45.644Z",
+      "lastOkAt": "2026-10-17T19:32:45.644Z"
     },
     "194781285": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:32.854Z",
-      "lastOkAt": "2026-10-16T05:31:32.854Z"
+      "lastCheckedAt": "2026-10-17T19:32:48.480Z",
+      "lastOkAt": "2026-10-17T19:32:48.480Z"
     },
     "194781345": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:35.653Z",
-      "lastOkAt": "2026-10-16T05:31:35.653Z"
+      "lastCheckedAt": "2026-10-17T19:32:51.375Z",
+      "lastOkAt": "2026-10-17T19:32:51.375Z"
     },
     "194887150": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:38.587Z",
-      "lastOkAt": "2026-10-16T05:31:38.587Z"
+      "lastCheckedAt": "2026-10-17T19:32:54.450Z",
+      "lastOkAt": "2026-10-17T19:32:54.450Z"
     },
     "195030940": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -9023,9 +9108,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:49.771Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:31:40.268Z",
+      "lastCheckedAt": "2026-10-17T19:25:49.771Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:31:40.268Z",
       "hiddenReason": "album_deleted",
@@ -9036,80 +9126,80 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:43.116Z",
-      "lastOkAt": "2026-10-16T05:31:43.116Z"
+      "lastCheckedAt": "2026-10-17T19:32:57.448Z",
+      "lastOkAt": "2026-10-17T19:32:57.448Z"
     },
     "195030997": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:45.994Z",
-      "lastOkAt": "2026-10-16T05:31:45.994Z"
+      "lastCheckedAt": "2026-10-17T19:33:00.455Z",
+      "lastOkAt": "2026-10-17T19:33:00.455Z"
     },
     "195031019": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:48.978Z",
-      "lastOkAt": "2026-10-16T05:31:48.978Z"
+      "lastCheckedAt": "2026-10-17T19:33:03.419Z",
+      "lastOkAt": "2026-10-17T19:33:03.419Z"
     },
     "195654403": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:52.027Z",
-      "lastOkAt": "2026-10-16T05:31:52.027Z"
+      "lastCheckedAt": "2026-10-17T19:33:06.491Z",
+      "lastOkAt": "2026-10-17T19:33:06.491Z"
     },
     "196259509": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:54.821Z",
-      "lastOkAt": "2026-10-16T05:31:54.821Z"
+      "lastCheckedAt": "2026-10-17T19:33:09.431Z",
+      "lastOkAt": "2026-10-17T19:33:09.431Z"
     },
     "196259614": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:31:57.582Z",
-      "lastOkAt": "2026-10-16T05:31:57.582Z"
+      "lastCheckedAt": "2026-10-17T19:33:12.527Z",
+      "lastOkAt": "2026-10-17T19:33:12.527Z"
     },
     "196259666": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:00.376Z",
-      "lastOkAt": "2026-10-16T05:32:00.376Z"
+      "lastCheckedAt": "2026-10-17T19:33:15.304Z",
+      "lastOkAt": "2026-10-17T19:33:15.304Z"
     },
     "196259795": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:03.076Z",
-      "lastOkAt": "2026-10-16T05:32:03.076Z"
+      "lastCheckedAt": "2026-10-17T19:33:17.931Z",
+      "lastOkAt": "2026-10-17T19:33:17.931Z"
     },
     "196260261": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:06.096Z",
-      "lastOkAt": "2026-10-16T05:32:06.096Z"
+      "lastCheckedAt": "2026-10-17T19:33:21.040Z",
+      "lastOkAt": "2026-10-17T19:33:21.040Z"
     },
     "196260429": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:08.851Z",
-      "lastOkAt": "2026-10-16T05:32:08.851Z"
+      "lastCheckedAt": "2026-10-17T19:33:23.955Z",
+      "lastOkAt": "2026-10-17T19:33:23.955Z"
     },
     "196260536": {
       "status": "ok",
@@ -9132,171 +9222,171 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:13.073Z",
-      "lastOkAt": "2026-10-16T05:32:13.073Z"
+      "lastCheckedAt": "2026-10-17T19:33:26.751Z",
+      "lastOkAt": "2026-10-17T19:33:26.751Z"
     },
     "197163883": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:15.718Z",
-      "lastOkAt": "2026-10-16T05:32:15.718Z"
+      "lastCheckedAt": "2026-10-17T19:33:29.308Z",
+      "lastOkAt": "2026-10-17T19:33:29.308Z"
     },
     "197820793": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:18.461Z",
-      "lastOkAt": "2026-10-16T05:32:18.461Z"
+      "lastCheckedAt": "2026-10-17T19:33:32.212Z",
+      "lastOkAt": "2026-10-17T19:33:32.212Z"
     },
     "197820872": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:21.553Z",
-      "lastOkAt": "2026-10-16T05:32:21.553Z"
+      "lastCheckedAt": "2026-10-17T19:33:35.284Z",
+      "lastOkAt": "2026-10-17T19:33:35.284Z"
     },
     "198589118": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:24.111Z",
-      "lastOkAt": "2026-10-16T05:32:24.111Z"
+      "lastCheckedAt": "2026-10-17T19:33:38.333Z",
+      "lastOkAt": "2026-10-17T19:33:38.333Z"
     },
     "198589539": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:27.124Z",
-      "lastOkAt": "2026-10-16T05:32:27.124Z"
+      "lastCheckedAt": "2026-10-17T19:33:41.053Z",
+      "lastOkAt": "2026-10-17T19:33:41.053Z"
     },
     "198669229": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:29.712Z",
-      "lastOkAt": "2026-10-16T05:32:29.712Z"
+      "lastCheckedAt": "2026-10-17T19:33:44.003Z",
+      "lastOkAt": "2026-10-17T19:33:44.003Z"
     },
     "198796167": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:32.706Z",
-      "lastOkAt": "2026-10-16T05:32:32.706Z"
+      "lastCheckedAt": "2026-10-17T19:33:46.907Z",
+      "lastOkAt": "2026-10-17T19:33:46.907Z"
     },
     "199189824": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:35.239Z",
-      "lastOkAt": "2026-10-16T05:32:35.239Z"
+      "lastCheckedAt": "2026-10-17T19:33:49.697Z",
+      "lastOkAt": "2026-10-17T19:33:49.697Z"
     },
     "199190188": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:37.943Z",
-      "lastOkAt": "2026-10-16T05:32:37.943Z"
+      "lastCheckedAt": "2026-10-17T19:33:52.636Z",
+      "lastOkAt": "2026-10-17T19:33:52.636Z"
     },
     "199190989": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:40.787Z",
-      "lastOkAt": "2026-10-16T05:32:40.787Z"
+      "lastCheckedAt": "2026-10-17T19:33:55.425Z",
+      "lastOkAt": "2026-10-17T19:33:55.425Z"
     },
     "199191147": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:43.656Z",
-      "lastOkAt": "2026-10-16T05:32:43.656Z"
+      "lastCheckedAt": "2026-10-17T19:33:58.459Z",
+      "lastOkAt": "2026-10-17T19:33:58.459Z"
     },
     "199191380": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:49.215Z",
-      "lastOkAt": "2026-10-16T05:32:49.215Z"
+      "lastCheckedAt": "2026-10-17T19:34:01.457Z",
+      "lastOkAt": "2026-10-17T19:34:01.457Z"
     },
     "199499028": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:51.912Z",
-      "lastOkAt": "2026-10-16T05:32:51.912Z"
+      "lastCheckedAt": "2026-10-17T19:34:04.168Z",
+      "lastOkAt": "2026-10-17T19:34:04.168Z"
     },
     "199541996": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:54.721Z",
-      "lastOkAt": "2026-10-16T05:32:54.721Z"
+      "lastCheckedAt": "2026-10-17T19:34:06.999Z",
+      "lastOkAt": "2026-10-17T19:34:06.999Z"
     },
     "199542254": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:32:57.350Z",
-      "lastOkAt": "2026-10-16T05:32:57.350Z"
+      "lastCheckedAt": "2026-10-17T19:34:10.096Z",
+      "lastOkAt": "2026-10-17T19:34:10.096Z"
     },
     "199542772": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:00.298Z",
-      "lastOkAt": "2026-10-16T05:33:00.298Z"
+      "lastCheckedAt": "2026-10-17T19:34:12.791Z",
+      "lastOkAt": "2026-10-17T19:34:12.791Z"
     },
     "199559121": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:03.147Z",
-      "lastOkAt": "2026-10-16T05:33:03.147Z"
+      "lastCheckedAt": "2026-10-17T19:34:15.576Z",
+      "lastOkAt": "2026-10-17T19:34:15.576Z"
     },
     "199559140": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:05.907Z",
-      "lastOkAt": "2026-10-16T05:33:05.907Z"
+      "lastCheckedAt": "2026-10-17T19:34:18.447Z",
+      "lastOkAt": "2026-10-17T19:34:18.447Z"
     },
     "199559157": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:08.717Z",
-      "lastOkAt": "2026-10-16T05:33:08.717Z"
+      "lastCheckedAt": "2026-10-17T19:34:21.281Z",
+      "lastOkAt": "2026-10-17T19:34:21.281Z"
     },
     "199559183": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:11.551Z",
-      "lastOkAt": "2026-10-16T05:33:11.551Z"
+      "lastCheckedAt": "2026-10-17T19:34:24.094Z",
+      "lastOkAt": "2026-10-17T19:34:24.094Z"
     },
     "200072024": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -9308,9 +9398,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:51.504Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:33:14.021Z",
+      "lastCheckedAt": "2026-10-17T19:25:51.504Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:33:14.021Z",
       "hiddenReason": "album_deleted",
@@ -9321,27 +9416,27 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:16.103Z",
-      "lastOkAt": "2026-10-16T05:33:16.103Z"
+      "lastCheckedAt": "2026-10-17T19:34:26.962Z",
+      "lastOkAt": "2026-10-17T19:34:26.962Z"
     },
     "200462970": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:18.906Z",
-      "lastOkAt": "2026-10-16T05:33:18.906Z"
+      "lastCheckedAt": "2026-10-17T19:34:29.885Z",
+      "lastOkAt": "2026-10-17T19:34:29.885Z"
     },
     "200462981": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:21.486Z",
-      "lastOkAt": "2026-10-16T05:33:21.486Z"
+      "lastCheckedAt": "2026-10-17T19:34:32.681Z",
+      "lastOkAt": "2026-10-17T19:34:32.681Z"
     },
     "200463008": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -9353,9 +9448,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:52.937Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:33:23.185Z",
+      "lastCheckedAt": "2026-10-17T19:25:52.937Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:33:23.185Z",
       "hiddenReason": "album_deleted",
@@ -9366,64 +9466,64 @@
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:25.522Z",
-      "lastOkAt": "2026-10-16T05:33:25.522Z"
+      "lastCheckedAt": "2026-10-17T19:34:35.417Z",
+      "lastOkAt": "2026-10-17T19:34:35.417Z"
     },
     "200463067": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:28.282Z",
-      "lastOkAt": "2026-10-16T05:33:28.282Z"
+      "lastCheckedAt": "2026-10-17T19:34:39.052Z",
+      "lastOkAt": "2026-10-17T19:34:39.052Z"
     },
     "200463082": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:30.950Z",
-      "lastOkAt": "2026-10-16T05:33:30.950Z"
+      "lastCheckedAt": "2026-10-17T19:34:41.582Z",
+      "lastOkAt": "2026-10-17T19:34:41.582Z"
     },
     "200463090": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:33.900Z",
-      "lastOkAt": "2026-10-16T05:33:33.900Z"
+      "lastCheckedAt": "2026-10-17T19:34:44.258Z",
+      "lastOkAt": "2026-10-17T19:34:44.258Z"
     },
     "200463103": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:36.572Z",
-      "lastOkAt": "2026-10-16T05:33:36.572Z"
+      "lastCheckedAt": "2026-10-17T19:34:47.336Z",
+      "lastOkAt": "2026-10-17T19:34:47.336Z"
     },
     "200463116": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:39.409Z",
-      "lastOkAt": "2026-10-16T05:33:39.409Z"
+      "lastCheckedAt": "2026-10-17T19:34:50.086Z",
+      "lastOkAt": "2026-10-17T19:34:50.086Z"
     },
     "200463122": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:42.244Z",
-      "lastOkAt": "2026-10-16T05:33:42.244Z"
+      "lastCheckedAt": "2026-10-17T19:34:52.764Z",
+      "lastOkAt": "2026-10-17T19:34:52.764Z"
     },
     "201768112": {
       "status": "ok",
       "hidden": false,
       "consecutiveErrors": 0,
       "history": [],
-      "lastCheckedAt": "2026-10-16T05:33:45.330Z",
-      "lastOkAt": "2026-10-16T05:33:45.330Z"
+      "lastCheckedAt": "2026-10-17T19:34:55.341Z",
+      "lastOkAt": "2026-10-17T19:34:55.341Z"
     },
     "201768123": {
       "status": "ok",
@@ -9666,7 +9766,7 @@
       "lastOkAt": "2026-10-16T05:35:07.923Z"
     },
     "203668935": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -9678,16 +9778,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:53.947Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:35:10.107Z",
+      "lastCheckedAt": "2026-10-17T19:25:53.947Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:35:10.107Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "203669038": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -9699,9 +9804,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:55.333Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:35:10.962Z",
+      "lastCheckedAt": "2026-10-17T19:25:55.333Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:35:10.962Z",
       "hiddenReason": "album_deleted",
@@ -9812,7 +9922,7 @@
       "lastOkAt": "2026-10-16T05:35:46.877Z"
     },
     "206461478": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -9824,9 +9934,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:56.775Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:35:48.482Z",
+      "lastCheckedAt": "2026-10-17T19:25:56.775Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:35:48.482Z",
       "hiddenReason": "album_deleted",
@@ -9977,7 +10092,7 @@
       "lastOkAt": "2026-10-16T05:36:37.505Z"
     },
     "206722135": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -9989,16 +10104,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:57.890Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:36:39.039Z",
+      "lastCheckedAt": "2026-10-17T19:25:57.890Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:36:39.039Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "206722141": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10010,9 +10130,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:25:59.602Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:36:41.036Z",
+      "lastCheckedAt": "2026-10-17T19:25:59.602Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:36:41.036Z",
       "hiddenReason": "album_deleted",
@@ -10083,7 +10208,7 @@
       "lastOkAt": "2026-10-16T05:37:02.960Z"
     },
     "208818880": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10095,9 +10220,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:00.775Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:37:04.439Z",
+      "lastCheckedAt": "2026-10-17T19:26:00.775Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:37:04.439Z",
       "hiddenReason": "album_deleted",
@@ -10128,7 +10258,7 @@
       "lastOkAt": "2026-10-16T05:37:12.737Z"
     },
     "209086910": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10140,9 +10270,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:02.345Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:37:14.246Z",
+      "lastCheckedAt": "2026-10-17T19:26:02.345Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:37:14.246Z",
       "hiddenReason": "album_deleted",
@@ -10157,7 +10292,7 @@
       "lastOkAt": "2026-10-16T05:37:16.700Z"
     },
     "209087525": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10169,9 +10304,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:03.572Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:37:18.596Z",
+      "lastCheckedAt": "2026-10-17T19:26:03.572Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:37:18.596Z",
       "hiddenReason": "album_deleted",
@@ -10298,7 +10438,7 @@
       "lastOkAt": "2026-10-16T05:38:11.988Z"
     },
     "209263795": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10310,9 +10450,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:05.116Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:38:13.467Z",
+      "lastCheckedAt": "2026-10-17T19:26:05.116Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:38:13.467Z",
       "hiddenReason": "album_deleted",
@@ -10343,7 +10488,7 @@
       "lastOkAt": "2026-10-16T05:38:21.951Z"
     },
     "209571050": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10355,9 +10500,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:08.101Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:38:24.379Z",
+      "lastCheckedAt": "2026-10-17T19:26:08.101Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:38:24.379Z",
       "hiddenReason": "album_deleted",
@@ -10412,7 +10562,7 @@
       "lastOkAt": "2026-10-16T05:38:42.446Z"
     },
     "209571269": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10424,16 +10574,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:08.489Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:38:44.388Z",
+      "lastCheckedAt": "2026-10-17T19:26:08.489Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:38:44.388Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "209571597": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10445,16 +10600,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:09.921Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:38:45.354Z",
+      "lastCheckedAt": "2026-10-17T19:26:09.921Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:38:45.354Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "209571616": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10466,9 +10626,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:11.405Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:38:46.630Z",
+      "lastCheckedAt": "2026-10-17T19:26:11.405Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:38:46.630Z",
       "hiddenReason": "album_deleted",
@@ -10507,7 +10672,7 @@
       "lastOkAt": "2026-10-16T05:38:57.347Z"
     },
     "209909021": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10519,16 +10684,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:13.086Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:38:59.443Z",
+      "lastCheckedAt": "2026-10-17T19:26:13.086Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:38:59.443Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "209909029": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10540,16 +10710,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:14.269Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:39:00.383Z",
+      "lastCheckedAt": "2026-10-17T19:26:14.269Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:39:00.383Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "209909106": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10561,9 +10736,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:15.481Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:39:01.715Z",
+      "lastCheckedAt": "2026-10-17T19:26:15.481Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:39:01.715Z",
       "hiddenReason": "album_deleted",
@@ -10594,7 +10774,7 @@
       "lastOkAt": "2026-10-16T05:39:09.966Z"
     },
     "210081437": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10606,16 +10786,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:17.076Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:39:13.015Z",
+      "lastCheckedAt": "2026-10-17T19:26:17.076Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:39:13.015Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "210081454": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10627,16 +10812,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:18.570Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:39:13.298Z",
+      "lastCheckedAt": "2026-10-17T19:26:18.570Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:39:13.298Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "210081467": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10648,9 +10838,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:19.757Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:39:15.574Z",
+      "lastCheckedAt": "2026-10-17T19:26:19.757Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:39:15.574Z",
       "hiddenReason": "album_deleted",
@@ -10737,7 +10932,7 @@
       "lastOkAt": "2026-10-16T05:39:42.541Z"
     },
     "210323906": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10749,9 +10944,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:21.379Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:39:44.534Z",
+      "lastCheckedAt": "2026-10-17T19:26:21.379Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:39:44.534Z",
       "hiddenReason": "album_deleted",
@@ -10790,7 +10990,7 @@
       "lastOkAt": "2026-10-16T05:39:54.960Z"
     },
     "210988364": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10802,16 +11002,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:22.411Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:39:56.791Z",
+      "lastCheckedAt": "2026-10-17T19:26:22.411Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:39:56.791Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "210988379": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -10823,9 +11028,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:23.996Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:39:58.384Z",
+      "lastCheckedAt": "2026-10-17T19:26:23.996Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:39:58.384Z",
       "hiddenReason": "album_deleted",
@@ -11096,7 +11306,7 @@
       "lastOkAt": "2026-10-16T05:41:43.767Z"
     },
     "212192234": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -11108,9 +11318,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:25.402Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:41:45.826Z",
+      "lastCheckedAt": "2026-10-17T19:26:25.402Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:41:45.826Z",
       "hiddenReason": "album_deleted",
@@ -11821,7 +12036,7 @@
       "lastOkAt": "2026-10-16T05:44:15.845Z"
     },
     "212307438": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -11833,9 +12048,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:27.347Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:44:17.690Z",
+      "lastCheckedAt": "2026-10-17T19:26:27.347Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:44:17.690Z",
       "hiddenReason": "album_deleted",
@@ -11850,7 +12070,7 @@
       "lastOkAt": "2026-10-16T05:44:20.625Z"
     },
     "212307840": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -11862,16 +12082,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:28.346Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:44:22.097Z",
+      "lastCheckedAt": "2026-10-17T19:26:28.346Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:44:22.097Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "212307842": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -11883,9 +12108,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:29.599Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:44:23.429Z",
+      "lastCheckedAt": "2026-10-17T19:26:29.599Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:44:23.429Z",
       "hiddenReason": "album_deleted",
@@ -11900,7 +12130,7 @@
       "lastOkAt": "2026-10-16T05:44:26.234Z"
     },
     "212307845": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -11912,9 +12142,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:31.090Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:44:28.169Z",
+      "lastCheckedAt": "2026-10-17T19:26:31.090Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:44:28.169Z",
       "hiddenReason": "album_deleted",
@@ -11945,7 +12180,7 @@
       "lastOkAt": "2026-10-16T05:44:33.186Z"
     },
     "212308453": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -11957,9 +12192,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:32.335Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:44:34.965Z",
+      "lastCheckedAt": "2026-10-17T19:26:32.335Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:44:34.965Z",
       "hiddenReason": "album_deleted",
@@ -11974,7 +12214,7 @@
       "lastOkAt": "2026-10-16T05:44:37.785Z"
     },
     "212308461": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -11986,16 +12226,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:33.767Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:44:39.428Z",
+      "lastCheckedAt": "2026-10-17T19:26:33.767Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:44:39.428Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "212308465": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -12007,9 +12252,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:35.626Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:44:40.849Z",
+      "lastCheckedAt": "2026-10-17T19:26:35.626Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:44:40.849Z",
       "hiddenReason": "album_deleted",
@@ -12056,7 +12306,7 @@
       "lastOkAt": "2026-10-16T07:32:15.460Z"
     },
     "212308797": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -12068,9 +12318,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:37.028Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:44:50.126Z",
+      "lastCheckedAt": "2026-10-17T19:26:37.028Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:44:50.126Z",
       "hiddenReason": "album_deleted",
@@ -12669,7 +12924,7 @@
       "lastOkAt": "2026-10-16T05:47:19.925Z"
     },
     "212392684": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -12681,16 +12936,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:38.467Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:47:21.385Z",
+      "lastCheckedAt": "2026-10-17T19:26:38.467Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:47:21.385Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "212392686": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -12702,16 +12962,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:39.674Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:47:22.652Z",
+      "lastCheckedAt": "2026-10-17T19:26:39.674Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:47:22.652Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "212392688": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -12723,9 +12988,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:41.123Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:47:23.961Z",
+      "lastCheckedAt": "2026-10-17T19:26:41.123Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:47:23.961Z",
       "hiddenReason": "album_deleted",
@@ -12948,7 +13218,7 @@
       "lastOkAt": "2026-10-16T05:48:17.577Z"
     },
     "212484483": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -12960,9 +13230,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:42.290Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:48:19.264Z",
+      "lastCheckedAt": "2026-10-17T19:26:42.290Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:48:19.264Z",
       "hiddenReason": "album_deleted",
@@ -14289,7 +14564,7 @@
       "lastOkAt": "2026-10-16T07:47:09.580Z"
     },
     "212826898": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -14301,9 +14576,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:43.657Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:55:00.255Z",
+      "lastCheckedAt": "2026-10-17T19:26:43.657Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:55:00.255Z",
       "hiddenReason": "album_deleted",
@@ -14318,7 +14598,7 @@
       "lastOkAt": "2026-10-16T07:34:30.312Z"
     },
     "212826983": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -14330,9 +14610,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:46.198Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:55:01.549Z",
+      "lastCheckedAt": "2026-10-17T19:26:46.198Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:55:01.549Z",
       "hiddenReason": "album_deleted",
@@ -15171,7 +15456,7 @@
       "lastOkAt": "2026-10-16T05:58:59.982Z"
     },
     "213148027": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15183,9 +15468,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:46.717Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:59:01.591Z",
+      "lastCheckedAt": "2026-10-17T19:26:46.717Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:59:01.591Z",
       "hiddenReason": "album_deleted",
@@ -15328,7 +15618,7 @@
       "lastOkAt": "2026-10-16T05:59:56.633Z"
     },
     "213268387": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15340,9 +15630,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:48.050Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T05:59:58.651Z",
+      "lastCheckedAt": "2026-10-17T19:26:48.050Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T05:59:58.651Z",
       "hiddenReason": "album_deleted",
@@ -15365,7 +15660,7 @@
       "lastOkAt": "2026-10-16T06:00:03.518Z"
     },
     "213271539": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15377,9 +15672,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:49.767Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:00:05.627Z",
+      "lastCheckedAt": "2026-10-17T19:26:49.767Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:00:05.627Z",
       "hiddenReason": "album_deleted",
@@ -15394,7 +15694,7 @@
       "lastOkAt": "2026-10-16T06:00:07.558Z"
     },
     "213271917": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15406,16 +15706,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:51.112Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:00:09.281Z",
+      "lastCheckedAt": "2026-10-17T19:26:51.112Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:00:09.281Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "213272841": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15427,9 +15732,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:52.368Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:00:10.628Z",
+      "lastCheckedAt": "2026-10-17T19:26:52.368Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:00:10.628Z",
       "hiddenReason": "album_deleted",
@@ -15460,7 +15770,7 @@
       "lastOkAt": "2026-10-16T06:00:18.132Z"
     },
     "213273284": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15472,9 +15782,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:53.565Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:00:20.015Z",
+      "lastCheckedAt": "2026-10-17T19:26:53.565Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:00:20.015Z",
       "hiddenReason": "album_deleted",
@@ -15529,7 +15844,7 @@
       "lastOkAt": "2026-10-16T06:00:36.603Z"
     },
     "213374729": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15541,9 +15856,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:55.274Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:00:38.384Z",
+      "lastCheckedAt": "2026-10-17T19:26:55.274Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:00:38.384Z",
       "hiddenReason": "album_deleted",
@@ -15574,7 +15894,7 @@
       "lastOkAt": "2026-10-16T06:00:46.578Z"
     },
     "213375117": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15586,9 +15906,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:56.708Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:00:48.327Z",
+      "lastCheckedAt": "2026-10-17T19:26:56.708Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:00:48.327Z",
       "hiddenReason": "album_deleted",
@@ -15707,7 +16032,7 @@
       "lastOkAt": "2026-10-16T06:01:34.217Z"
     },
     "213385781": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15719,9 +16044,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:58.032Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:01:36.149Z",
+      "lastCheckedAt": "2026-10-17T19:26:58.032Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:01:36.149Z",
       "hiddenReason": "album_deleted",
@@ -15824,7 +16154,7 @@
       "lastOkAt": "2026-10-16T06:02:12.030Z"
     },
     "213387035": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15836,9 +16166,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:26:59.460Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:02:14.450Z",
+      "lastCheckedAt": "2026-10-17T19:26:59.460Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:02:14.450Z",
       "hiddenReason": "album_deleted",
@@ -15893,7 +16228,7 @@
       "lastOkAt": "2026-10-16T06:02:31.833Z"
     },
     "213387630": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -15905,9 +16240,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:00.824Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:02:33.407Z",
+      "lastCheckedAt": "2026-10-17T19:27:00.824Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:02:33.407Z",
       "hiddenReason": "album_deleted",
@@ -16418,7 +16758,7 @@
       "lastOkAt": "2026-10-16T06:06:24.550Z"
     },
     "214128889": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -16430,9 +16770,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:02.971Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:06:26.082Z",
+      "lastCheckedAt": "2026-10-17T19:27:02.971Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:06:26.082Z",
       "hiddenReason": "album_deleted",
@@ -16815,7 +17160,7 @@
       "lastOkAt": "2026-10-16T06:09:20.419Z"
     },
     "215020308": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -16827,16 +17172,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:03.803Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:09:22.100Z",
+      "lastCheckedAt": "2026-10-17T19:27:03.803Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:09:22.100Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "215022464": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -16848,9 +17198,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:05.252Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:09:23.621Z",
+      "lastCheckedAt": "2026-10-17T19:27:05.252Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:09:23.621Z",
       "hiddenReason": "album_deleted",
@@ -17025,7 +17380,7 @@
       "lastOkAt": "2026-10-16T06:10:00.546Z"
     },
     "215723366": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -17037,9 +17392,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:06.406Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:10:02.537Z",
+      "lastCheckedAt": "2026-10-17T19:27:06.406Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:10:02.537Z",
       "hiddenReason": "album_deleted",
@@ -17238,7 +17598,7 @@
       "lastOkAt": "2026-10-16T06:11:01.810Z"
     },
     "216224775": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -17250,9 +17610,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:07.826Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:11:03.628Z",
+      "lastCheckedAt": "2026-10-17T19:27:07.826Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:11:03.628Z",
       "hiddenReason": "album_deleted",
@@ -17275,7 +17640,7 @@
       "lastOkAt": "2026-10-16T06:11:09.155Z"
     },
     "216225079": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -17287,9 +17652,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:09.194Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:11:10.662Z",
+      "lastCheckedAt": "2026-10-17T19:27:09.194Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:11:10.662Z",
       "hiddenReason": "album_deleted",
@@ -17400,7 +17770,7 @@
       "lastOkAt": "2026-10-16T06:11:37.917Z"
     },
     "216226064": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -17412,9 +17782,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:11.197Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:11:40.050Z",
+      "lastCheckedAt": "2026-10-17T19:27:11.197Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:11:40.050Z",
       "hiddenReason": "album_deleted",
@@ -17493,7 +17868,7 @@
       "lastOkAt": "2026-10-16T06:11:55.995Z"
     },
     "216481185": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -17505,9 +17880,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:11.977Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:11:57.642Z",
+      "lastCheckedAt": "2026-10-17T19:27:11.977Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:11:57.642Z",
       "hiddenReason": "album_deleted",
@@ -17898,7 +18278,7 @@
       "lastOkAt": "2026-10-16T07:41:38.607Z"
     },
     "217356786": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -17910,9 +18290,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:13.273Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:12:59.994Z",
+      "lastCheckedAt": "2026-10-17T19:27:13.273Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:12:59.994Z",
       "hiddenReason": "album_deleted",
@@ -17983,7 +18368,7 @@
       "lastOkAt": "2026-10-16T07:41:36.105Z"
     },
     "217438624": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -17995,9 +18380,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:14.831Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:13:17.813Z",
+      "lastCheckedAt": "2026-10-17T19:27:14.831Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:13:17.813Z",
       "hiddenReason": "album_deleted",
@@ -18220,7 +18610,7 @@
       "lastOkAt": "2026-10-16T06:13:37.891Z"
     },
     "217774232": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -18232,9 +18622,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:16.804Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:13:39.490Z",
+      "lastCheckedAt": "2026-10-17T19:27:16.804Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:13:39.490Z",
       "hiddenReason": "album_deleted",
@@ -18441,7 +18836,7 @@
       "lastOkAt": "2026-10-16T08:00:11.751Z"
     },
     "218843915": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -18453,16 +18848,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:17.451Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:14:24.649Z",
+      "lastCheckedAt": "2026-10-17T19:27:17.451Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:14:24.649Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "218844173": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -18474,16 +18874,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:19.155Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:14:26.549Z",
+      "lastCheckedAt": "2026-10-17T19:27:19.155Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:14:26.549Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "218844944": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -18495,9 +18900,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:20.487Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:14:27.256Z",
+      "lastCheckedAt": "2026-10-17T19:27:20.487Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:14:27.256Z",
       "hiddenReason": "album_deleted",
@@ -18784,7 +19194,7 @@
       "lastOkAt": "2026-10-16T06:15:36.341Z"
     },
     "219398939": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -18796,9 +19206,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:21.482Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:15:37.876Z",
+      "lastCheckedAt": "2026-10-17T19:27:21.482Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:15:37.876Z",
       "hiddenReason": "album_deleted",
@@ -19077,7 +19492,7 @@
       "lastOkAt": "2026-10-16T06:17:05.608Z"
     },
     "219695198": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -19089,9 +19504,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:22.992Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:17:07.519Z",
+      "lastCheckedAt": "2026-10-17T19:27:22.992Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:17:07.519Z",
       "hiddenReason": "album_deleted",
@@ -19434,7 +19854,7 @@
       "lastOkAt": "2026-10-16T06:17:44.298Z"
     },
     "220231538": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -19446,16 +19866,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:24.776Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:17:46.098Z",
+      "lastCheckedAt": "2026-10-17T19:27:24.776Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:17:46.098Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "220231558": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -19467,16 +19892,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:25.774Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:17:47.462Z",
+      "lastCheckedAt": "2026-10-17T19:27:25.774Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:17:47.462Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "220231581": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -19488,9 +19918,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:27.376Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:17:49.512Z",
+      "lastCheckedAt": "2026-10-17T19:27:27.376Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:17:49.512Z",
       "hiddenReason": "album_deleted",
@@ -19921,7 +20356,7 @@
       "lastOkAt": "2026-10-16T06:19:05.331Z"
     },
     "221733626": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -19933,16 +20368,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:29.000Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:19:07.513Z",
+      "lastCheckedAt": "2026-10-17T19:27:29.000Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:19:07.513Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "221734307": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -19954,16 +20394,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:30.093Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:19:08.593Z",
+      "lastCheckedAt": "2026-10-17T19:27:30.093Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:19:08.593Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "221734372": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -19975,16 +20420,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:31.592Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:19:10.362Z",
+      "lastCheckedAt": "2026-10-17T19:27:31.592Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:19:10.362Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "221734432": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -19996,9 +20446,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:32.967Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:19:11.462Z",
+      "lastCheckedAt": "2026-10-17T19:27:32.967Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:19:11.462Z",
       "hiddenReason": "album_deleted",
@@ -20461,7 +20916,7 @@
       "lastOkAt": "2026-10-16T06:21:18.301Z"
     },
     "222820714": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -20473,9 +20928,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:34.579Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:21:19.964Z",
+      "lastCheckedAt": "2026-10-17T19:27:34.579Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:21:19.964Z",
       "hiddenReason": "album_deleted",
@@ -20490,7 +20950,7 @@
       "lastOkAt": "2026-10-16T06:21:22.726Z"
     },
     "222820769": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -20502,9 +20962,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:36.253Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:21:24.445Z",
+      "lastCheckedAt": "2026-10-17T19:27:36.253Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:21:24.445Z",
       "hiddenReason": "album_deleted",
@@ -20615,7 +21080,7 @@
       "lastOkAt": "2026-10-16T06:21:49.227Z"
     },
     "223002850": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -20627,9 +21092,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:37.278Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:21:51.012Z",
+      "lastCheckedAt": "2026-10-17T19:27:37.278Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:21:51.012Z",
       "hiddenReason": "album_deleted",
@@ -20676,7 +21146,7 @@
       "lastOkAt": "2026-10-16T06:22:01.571Z"
     },
     "223003521": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -20688,9 +21158,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:38.744Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:22:03.316Z",
+      "lastCheckedAt": "2026-10-17T19:27:38.744Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:22:03.316Z",
       "hiddenReason": "album_deleted",
@@ -20721,7 +21196,7 @@
       "lastOkAt": "2026-10-16T06:22:11.222Z"
     },
     "223115736": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -20733,9 +21208,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:40.236Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:22:12.970Z",
+      "lastCheckedAt": "2026-10-17T19:27:40.236Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:22:12.970Z",
       "hiddenReason": "album_deleted",
@@ -20966,7 +21446,7 @@
       "lastOkAt": "2026-10-16T06:22:20.807Z"
     },
     "224148140": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -20978,9 +21458,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:41.574Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:22:22.767Z",
+      "lastCheckedAt": "2026-10-17T19:27:41.574Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:22:22.767Z",
       "hiddenReason": "album_deleted",
@@ -21443,7 +21928,7 @@
       "lastOkAt": "2026-10-16T06:23:45.915Z"
     },
     "226515972": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -21455,9 +21940,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:42.826Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:23:47.743Z",
+      "lastCheckedAt": "2026-10-17T19:27:42.826Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:23:47.743Z",
       "hiddenReason": "album_deleted",
@@ -21504,7 +21994,7 @@
       "lastOkAt": "2026-10-16T07:47:57.517Z"
     },
     "226667528": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -21516,9 +22006,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:44.022Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:23:55.092Z",
+      "lastCheckedAt": "2026-10-17T19:27:44.022Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:23:55.092Z",
       "hiddenReason": "album_deleted",
@@ -22317,7 +22812,7 @@
       "lastOkAt": "2026-10-16T06:28:03.274Z"
     },
     "229204534": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -22329,9 +22824,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:45.394Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:28:04.781Z",
+      "lastCheckedAt": "2026-10-17T19:27:45.394Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:28:04.781Z",
       "hiddenReason": "album_deleted",
@@ -22354,7 +22854,7 @@
       "lastOkAt": "2026-10-16T07:33:28.649Z"
     },
     "229204733": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -22366,9 +22866,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:46.979Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:28:06.048Z",
+      "lastCheckedAt": "2026-10-17T19:27:46.979Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:28:06.048Z",
       "hiddenReason": "album_deleted",
@@ -22487,7 +22992,7 @@
       "lastOkAt": "2026-10-16T06:28:19.903Z"
     },
     "229872934": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -22499,16 +23004,21 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:48.117Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:28:21.328Z",
+      "lastCheckedAt": "2026-10-17T19:27:48.117Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:28:21.328Z",
       "hiddenReason": "album_deleted",
       "hiddenAt": "2026-10-16T06:48:32.440Z"
     },
     "229873009": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -22520,9 +23030,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:49.338Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:28:23.053Z",
+      "lastCheckedAt": "2026-10-17T19:27:49.338Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:28:23.053Z",
       "hiddenReason": "album_deleted",
@@ -22785,7 +23300,7 @@
       "lastOkAt": "2026-10-16T06:29:14.469Z"
     },
     "231115189": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -22797,9 +23312,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:50.798Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:29:16.282Z",
+      "lastCheckedAt": "2026-10-17T19:27:50.798Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:29:16.282Z",
       "hiddenReason": "album_deleted",
@@ -23190,7 +23710,7 @@
       "lastOkAt": "2026-10-16T06:30:08.225Z"
     },
     "233494950": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -23202,9 +23722,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:52.488Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:30:09.826Z",
+      "lastCheckedAt": "2026-10-17T19:27:52.488Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:30:09.826Z",
       "hiddenReason": "album_deleted",
@@ -23251,7 +23776,7 @@
       "lastOkAt": "2026-10-16T07:50:18.041Z"
     },
     "233498230": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -23263,9 +23788,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:54.028Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:30:19.753Z",
+      "lastCheckedAt": "2026-10-17T19:27:54.028Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:30:19.753Z",
       "hiddenReason": "album_deleted",
@@ -24576,7 +25106,7 @@
       "lastOkAt": "2026-10-16T06:34:07.214Z"
     },
     "239252915": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -24588,9 +25118,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:55.334Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:34:08.711Z",
+      "lastCheckedAt": "2026-10-17T19:27:55.334Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:34:08.711Z",
       "hiddenReason": "album_deleted",
@@ -24677,7 +25212,7 @@
       "lastOkAt": "2026-10-16T07:56:16.154Z"
     },
     "240053856": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -24689,9 +25224,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:56.997Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:34:21.516Z",
+      "lastCheckedAt": "2026-10-17T19:27:56.997Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:34:21.516Z",
       "hiddenReason": "album_deleted",
@@ -25135,7 +25675,7 @@
       "lastOkAt": "2026-10-16T06:36:00.232Z"
     },
     "244623833": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -25147,9 +25687,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:58.055Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:36:01.836Z",
+      "lastCheckedAt": "2026-10-17T19:27:58.055Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:36:01.836Z",
       "hiddenReason": "album_deleted",
@@ -26012,7 +26557,7 @@
       "lastOkAt": "2026-10-16T06:39:08.965Z"
     },
     "247355896": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -26024,9 +26569,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:27:59.262Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:39:10.539Z",
+      "lastCheckedAt": "2026-10-17T19:27:59.262Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:39:10.539Z",
       "hiddenReason": "album_deleted",
@@ -26041,7 +26591,7 @@
       "lastOkAt": "2026-10-16T06:39:13.561Z"
     },
     "247785315": {
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "hidden": true,
       "consecutiveErrors": 0,
       "history": [
@@ -26053,9 +26603,14 @@
           "at": "2026-10-16T06:48:32.440Z",
           "event": "hidden",
           "detail": "album_deleted"
+        },
+        {
+          "at": "2026-10-17T19:28:00.577Z",
+          "event": "confirmed_unavailable",
+          "detail": "album_deleted"
         }
       ],
-      "lastCheckedAt": "2026-10-16T06:39:14.994Z",
+      "lastCheckedAt": "2026-10-17T19:28:00.577Z",
       "pendingKind": "album_deleted",
       "pendingSince": "2026-10-16T06:39:14.994Z",
       "hiddenReason": "album_deleted",
