@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-19T21:44:19.135Z",
+  "generatedAt": "2026-10-20T10:17:30.846Z",
   "totalProducts": 2852,
-  "visibleProducts": 2616,
+  "visibleProducts": 2615,
   "byStatus": {
-    "ok": 2615,
-    "repaired": 1,
-    "suspect_deleted": 0,
+    "ok": 2612,
+    "repaired": 3,
+    "suspect_deleted": 1,
     "suspect_no_images": 0,
     "unavailable": 236,
     "error": 0,
     "unchecked": 0
   },
   "visibleByStatus": {
-    "ok": 2615,
-    "repaired": 1,
+    "ok": 2612,
+    "repaired": 3,
     "suspect_deleted": 0,
     "suspect_no_images": 0,
     "unavailable": 0,
@@ -21,20 +21,22 @@
     "unchecked": 0
   },
   "lastRun": {
-    "startedAt": "2026-10-19T21:32:34.106Z",
-    "finishedAt": "2026-10-19T21:44:19.135Z",
+    "startedAt": "2026-10-20T10:05:45.114Z",
+    "finishedAt": "2026-10-20T10:17:30.846Z",
     "outcome": "ok",
     "selected": 250,
     "checked": 250,
-    "requests": 500,
+    "requests": 501,
     "observations": {
-      "exists_valid": 250
+      "exists_valid": 247,
+      "deleted": 1,
+      "exists_broken": 2
     },
-    "newProblems": 0,
+    "newProblems": 1,
     "confirmed": 0,
-    "repaired": 0,
+    "repaired": 2,
     "restored": 0,
-    "hidden": 0,
+    "hidden": 1,
     "suspendedHides": 0
   },
   "affected": [
@@ -498,6 +500,24 @@
       "detail": "album_deleted"
     },
     {
+      "id": 378,
+      "albumId": "244521615",
+      "nombre": "Barcelona 26/27 Third Away Jersey S-4XL",
+      "status": "repaired",
+      "visible": true,
+      "since": "2026-10-20T10:14:42.351Z",
+      "detail": "http_404"
+    },
+    {
+      "id": 379,
+      "albumId": "243939221",
+      "nombre": "Barcelona 26/27 Third Away Player Version Jersey S-4XL",
+      "status": "repaired",
+      "visible": true,
+      "since": "2026-10-20T10:14:07.679Z",
+      "detail": "http_404"
+    },
+    {
       "id": 383,
       "albumId": "247355896",
       "nombre": "Barcelona x Kobe Bryant 26/27 Away Jersey S-4XL",
@@ -945,6 +965,15 @@
       "status": "unavailable",
       "visible": false,
       "since": "2026-10-16T05:24:01.041Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 951,
+      "albumId": "239062441",
+      "nombre": "UD Almeria 25/26 Retro Style Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-20T10:12:58.636Z",
       "detail": "album_deleted"
     },
     {
