@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-10-21T10:22:20.533Z",
+  "generatedAt": "2026-10-21T20:50:12.161Z",
   "totalProducts": 2852,
-  "visibleProducts": 2615,
+  "visibleProducts": 2614,
   "byStatus": {
-    "ok": 2612,
+    "ok": 2611,
     "repaired": 3,
     "suspect_deleted": 1,
     "suspect_no_images": 0,
-    "unavailable": 236,
+    "unavailable": 237,
     "error": 0,
     "unchecked": 0
   },
   "visibleByStatus": {
-    "ok": 2612,
+    "ok": 2611,
     "repaired": 3,
     "suspect_deleted": 0,
     "suspect_no_images": 0,
@@ -21,20 +21,21 @@
     "unchecked": 0
   },
   "lastRun": {
-    "startedAt": "2026-10-21T10:10:23.894Z",
-    "finishedAt": "2026-10-21T10:22:20.533Z",
+    "startedAt": "2026-10-21T20:38:36.453Z",
+    "finishedAt": "2026-10-21T20:50:12.161Z",
     "outcome": "ok",
     "selected": 250,
     "checked": 250,
-    "requests": 500,
+    "requests": 498,
     "observations": {
-      "exists_valid": 250
+      "deleted": 2,
+      "exists_valid": 248
     },
-    "newProblems": 0,
-    "confirmed": 0,
+    "newProblems": 1,
+    "confirmed": 1,
     "repaired": 0,
     "restored": 0,
-    "hidden": 0,
+    "hidden": 1,
     "suspendedHides": 0
   },
   "affected": [
@@ -969,7 +970,7 @@
       "id": 951,
       "albumId": "239062441",
       "nombre": "UD Almeria 25/26 Retro Style Jersey S-4XL",
-      "status": "suspect_deleted",
+      "status": "unavailable",
       "visible": false,
       "since": "2026-10-20T10:12:58.636Z",
       "detail": "album_deleted"
@@ -2196,6 +2197,15 @@
       "status": "unavailable",
       "visible": false,
       "since": "2026-10-16T06:09:23.621Z",
+      "detail": "album_deleted"
+    },
+    {
+      "id": 2620,
+      "albumId": "220905415",
+      "nombre": "Italy 2026 Away Long-Sleeve Jersey S-4XL",
+      "status": "suspect_deleted",
+      "visible": false,
+      "since": "2026-10-21T20:44:03.723Z",
       "detail": "album_deleted"
     }
   ]

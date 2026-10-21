@@ -1,20 +1,20 @@
 # Estado del catálogo
 
-Actualizado: 2026-10-21T10:22:20.533Z · Productos: 2852 · En tienda: 2615 · Retirados: 237
+Actualizado: 2026-10-21T20:50:12.161Z · Productos: 2852 · En tienda: 2614 · Retirados: 238
 
 | Estado | Productos | En tienda |
 |---|---:|---:|
-| Sano | 2612 | 2612 |
+| Sano | 2611 | 2611 |
 | Miniatura reparada con otra foto del álbum | 3 | 3 |
 | Álbum eliminado en Yupoo (pendiente de confirmar a las 24 h) | 1 | 0 |
 | Álbum sin ninguna foto válida (pendiente de confirmar a las 24 h) | 0 | 0 |
-| No disponible (confirmado en 2 revisiones) | 236 | 0 |
+| No disponible (confirmado en 2 revisiones) | 237 | 0 |
 | Error temporal (se reintentará; sigue visible) | 0 | 0 |
 | Sin revisar | 0 | 0 |
 
 ## Última ejecución
 
-Resultado: **ok** · Revisados: 250/250 · Peticiones: 500 · Problemas nuevos: 0 · Confirmados: 0 · Reparados: 0 · Restaurados: 0 · Retirados: 0 · Retiradas suspendidas: 0
+Resultado: **ok** · Revisados: 250/250 · Peticiones: 498 · Problemas nuevos: 1 · Confirmados: 1 · Reparados: 0 · Restaurados: 0 · Retirados: 1 · Retiradas suspendidas: 0
 
 
 ## Productos afectados
@@ -24,7 +24,7 @@ Resultado: **ok** · Revisados: 250/250 · Peticiones: 500 · Problemas nuevos: 
 | 378 | 244521615 | Barcelona 26/27 Third Away Jersey S-4XL | Miniatura reparada con otra foto del álbum | Sí | 2026-10-20T10:14:42.351Z | http_404 |
 | 379 | 243939221 | Barcelona 26/27 Third Away Player Version Jersey S-4XL | Miniatura reparada con otra foto del álbum | Sí | 2026-10-20T10:14:07.679Z | http_404 |
 | 1207 | 244623738 | RC Lens 26/27 Home Jersey S-4XL | Miniatura reparada con otra foto del álbum | Sí | 2026-10-16T06:36:00.232Z | http_404 |
-| 951 | 239062441 | UD Almeria 25/26 Retro Style Jersey S-4XL | Álbum eliminado en Yupoo (pendiente de confirmar a las 24 h) | No | 2026-10-20T10:12:58.636Z | album_deleted |
+| 2620 | 220905415 | Italy 2026 Away Long-Sleeve Jersey S-4XL | Álbum eliminado en Yupoo (pendiente de confirmar a las 24 h) | No | 2026-10-21T20:44:03.723Z | album_deleted |
 | 1 | 229872934 | Augsburg 25/26 Fourth Away Jersey S-4XL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T06:28:21.328Z | album_deleted |
 | 2 | 229873009 | Augsburg 25/26 Special Edition Navy Blue Jersey S-4XL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T06:28:23.053Z | album_deleted |
 | 3 | 223115736 | Augsburg 25/26 Third Away Jersey S-4XL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T06:22:12.970Z | album_deleted |
@@ -126,6 +126,7 @@ Resultado: **ok** · Revisados: 250/250 · Peticiones: 500 · Problemas nuevos: 
 | 929 | 178780146 | 24/25 Sporting Gijon away S-2XL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T05:22:27.737Z | album_deleted |
 | 932 | 200072024 | Retro 08/09 Sporting Gijon Home Size S-XXL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T05:33:14.021Z | album_deleted |
 | 936 | 182398970 | Retro Sporting Gijon 15/16 Away  S-XXL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T05:24:01.041Z | album_deleted |
+| 951 | 239062441 | UD Almeria 25/26 Retro Style Jersey S-4XL | No disponible (confirmado en 2 revisiones) | No | 2026-10-20T10:12:58.636Z | album_deleted |
 | 952 | 175044945 | 24/25 Valencia third away S-XXL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T05:21:19.500Z | album_deleted |
 | 958 | 195030940 | Retro Valencia 18/19 Home S-XXL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T05:31:40.268Z | album_deleted |
 | 975 | 181079598 | 24/25 Villarreal Home S-XXL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T05:23:11.968Z | album_deleted |
