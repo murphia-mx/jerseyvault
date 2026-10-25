@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T10:01:35.311Z",
+  "generatedAt": "2026-10-25T19:53:27.392Z",
   "totalProducts": 2852,
   "visibleProducts": 2614,
   "byStatus": {
@@ -21,14 +21,15 @@
     "unchecked": 0
   },
   "lastRun": {
-    "startedAt": "2026-10-25T09:49:37.787Z",
-    "finishedAt": "2026-10-25T10:01:35.311Z",
+    "startedAt": "2026-10-25T19:38:49.485Z",
+    "finishedAt": "2026-10-25T19:53:27.392Z",
     "outcome": "ok",
     "selected": 250,
     "checked": 250,
-    "requests": 500,
+    "requests": 506,
     "observations": {
-      "exists_valid": 250
+      "exists_valid": 248,
+      "transient": 2
     },
     "newProblems": 0,
     "confirmed": 0,
