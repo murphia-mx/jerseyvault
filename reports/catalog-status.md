@@ -1,6 +1,6 @@
 # Estado del catálogo
 
-Actualizado: 2026-11-02T13:43:13.437Z · Productos: 2852 · En tienda: 2614 · Retirados: 238
+Actualizado: 2026-11-02T23:53:37.540Z · Productos: 2852 · En tienda: 2614 · Retirados: 238
 
 | Estado | Productos | En tienda |
 |---|---:|---:|
@@ -14,8 +14,9 @@ Actualizado: 2026-11-02T13:43:13.437Z · Productos: 2852 · En tienda: 2614 · R
 
 ## Última ejecución
 
-Resultado: **ok** · Revisados: 250/250 · Peticiones: 500 · Problemas nuevos: 0 · Confirmados: 0 · Reparados: 0 · Restaurados: 0 · Retirados: 0 · Retiradas suspendidas: 0
+Resultado: **degraded** · Revisados: 8/250 · Peticiones: 8 · Problemas nuevos: 0 · Confirmados: 0 · Reparados: 0 · Restaurados: 0 · Retirados: 0 · Retiradas suspendidas: 0
 
+> Stopped early: Yupoo is failing or blocking requests. Nothing was hidden this run.
 
 ## Productos afectados
 
