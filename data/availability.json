@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T12:48:13.981Z",
+  "updatedAt": "2026-11-03T22:18:43.592Z",
   "albums": {
     "14531062": {
       "status": "ok",
@@ -16214,7 +16214,7 @@
     "213387531": {
       "status": "ok",
       "hidden": false,
-      "consecutiveErrors": 2,
+      "consecutiveErrors": 3,
       "history": [
         {
           "at": "2026-11-02T23:53:31.642Z",
@@ -16222,10 +16222,10 @@
           "detail": "unknown_page_layout"
         }
       ],
-      "lastCheckedAt": "2026-11-03T12:48:08.426Z",
+      "lastCheckedAt": "2026-11-03T22:18:37.859Z",
       "lastOkAt": "2026-10-27T21:28:20.909Z",
       "lastError": {
-        "at": "2026-11-03T12:48:08.426Z",
+        "at": "2026-11-03T22:18:37.859Z",
         "detail": "anomaly:unknown_page_layout"
       }
     },
@@ -17248,7 +17248,7 @@
     "215045282": {
       "status": "ok",
       "hidden": false,
-      "consecutiveErrors": 2,
+      "consecutiveErrors": 3,
       "history": [
         {
           "at": "2026-11-02T23:53:35.962Z",
@@ -17256,10 +17256,10 @@
           "detail": "unknown_page_layout"
         }
       ],
-      "lastCheckedAt": "2026-11-03T12:48:12.577Z",
+      "lastCheckedAt": "2026-11-03T22:18:42.246Z",
       "lastOkAt": "2026-10-27T21:28:28.882Z",
       "lastError": {
-        "at": "2026-11-03T12:48:12.577Z",
+        "at": "2026-11-03T22:18:42.246Z",
         "detail": "anomaly:unknown_page_layout"
       }
     },
@@ -18132,7 +18132,7 @@
     "216812714": {
       "status": "ok",
       "hidden": false,
-      "consecutiveErrors": 2,
+      "consecutiveErrors": 3,
       "history": [
         {
           "at": "2026-11-02T23:53:37.534Z",
@@ -18140,10 +18140,10 @@
           "detail": "unknown_page_layout"
         }
       ],
-      "lastCheckedAt": "2026-11-03T12:48:13.978Z",
+      "lastCheckedAt": "2026-11-03T22:18:43.590Z",
       "lastOkAt": "2026-10-27T21:28:31.402Z",
       "lastError": {
-        "at": "2026-11-03T12:48:13.978Z",
+        "at": "2026-11-03T22:18:43.590Z",
         "detail": "anomaly:unknown_page_layout"
       }
     },
@@ -20183,7 +20183,7 @@
     "220905770": {
       "status": "ok",
       "hidden": false,
-      "consecutiveErrors": 2,
+      "consecutiveErrors": 3,
       "history": [
         {
           "at": "2026-11-02T23:53:30.457Z",
@@ -20191,10 +20191,10 @@
           "detail": "unknown_page_layout"
         }
       ],
-      "lastCheckedAt": "2026-11-03T12:48:07.142Z",
+      "lastCheckedAt": "2026-11-03T22:18:36.315Z",
       "lastOkAt": "2026-10-27T21:28:18.161Z",
       "lastError": {
-        "at": "2026-11-03T12:48:07.142Z",
+        "at": "2026-11-03T22:18:36.315Z",
         "detail": "anomaly:unknown_page_layout"
       }
     },
@@ -21037,7 +21037,7 @@
     "222820794": {
       "status": "ok",
       "hidden": false,
-      "consecutiveErrors": 2,
+      "consecutiveErrors": 3,
       "history": [
         {
           "at": "2026-11-02T23:53:34.469Z",
@@ -21045,10 +21045,10 @@
           "detail": "unknown_page_layout"
         }
       ],
-      "lastCheckedAt": "2026-11-03T12:48:11.289Z",
+      "lastCheckedAt": "2026-11-03T22:18:40.578Z",
       "lastOkAt": "2026-10-27T21:28:26.083Z",
       "lastError": {
-        "at": "2026-11-03T12:48:11.289Z",
+        "at": "2026-11-03T22:18:40.578Z",
         "detail": "anomaly:unknown_page_layout"
       }
     },
@@ -24361,7 +24361,7 @@
     "235534780": {
       "status": "ok",
       "hidden": false,
-      "consecutiveErrors": 2,
+      "consecutiveErrors": 3,
       "history": [
         {
           "at": "2026-11-02T23:53:33.085Z",
@@ -24369,10 +24369,10 @@
           "detail": "unknown_page_layout"
         }
       ],
-      "lastCheckedAt": "2026-11-03T12:48:09.782Z",
+      "lastCheckedAt": "2026-11-03T22:18:40.038Z",
       "lastOkAt": "2026-10-27T21:28:23.624Z",
       "lastError": {
-        "at": "2026-11-03T12:48:09.782Z",
+        "at": "2026-11-03T22:18:40.038Z",
         "detail": "anomaly:unknown_page_layout"
       }
     },
@@ -24595,7 +24595,7 @@
     "236820290": {
       "status": "ok",
       "hidden": false,
-      "consecutiveErrors": 2,
+      "consecutiveErrors": 3,
       "history": [
         {
           "at": "2026-11-02T23:53:28.560Z",
@@ -24603,17 +24603,17 @@
           "detail": "unknown_page_layout"
         }
       ],
-      "lastCheckedAt": "2026-11-03T12:48:04.732Z",
+      "lastCheckedAt": "2026-11-03T22:18:34.056Z",
       "lastOkAt": "2026-10-27T21:28:12.624Z",
       "lastError": {
-        "at": "2026-11-03T12:48:04.732Z",
+        "at": "2026-11-03T22:18:34.056Z",
         "detail": "anomaly:unknown_page_layout"
       }
     },
     "236820493": {
       "status": "ok",
       "hidden": false,
-      "consecutiveErrors": 2,
+      "consecutiveErrors": 3,
       "history": [
         {
           "at": "2026-11-02T23:53:28.947Z",
@@ -24621,10 +24621,10 @@
           "detail": "unknown_page_layout"
         }
       ],
-      "lastCheckedAt": "2026-11-03T12:48:05.594Z",
+      "lastCheckedAt": "2026-11-03T22:18:35.011Z",
       "lastOkAt": "2026-10-27T21:28:15.370Z",
       "lastError": {
-        "at": "2026-11-03T12:48:05.594Z",
+        "at": "2026-11-03T22:18:35.011Z",
         "detail": "anomaly:unknown_page_layout"
       }
     },
