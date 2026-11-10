@@ -1,6 +1,6 @@
 {
     "generatedAt": "2026-07-30T15:28:56.055639",
-    "totalProducts": 2614,
+    "totalProducts": 2613,
     "products": [
         {
             "id": 8,
@@ -45887,23 +45887,6 @@
             "imagenes": [
                 "https://photo.yupoo.com/minkang/f7b1b4cbe1/small.jpg",
                 "https://photo.yupoo.com/minkang/5b414c0a98/small.jpg"
-            ],
-            "temporada": "2026",
-            "tallas": "S-4XL"
-        },
-        {
-            "id": 2481,
-            "albumId": "243939774",
-            "slug": "spain-2026-special-edition-jersey-s-4xl",
-            "liga": "Selecciones",
-            "equipo": "España",
-            "tipo": "Manga corta",
-            "nombre": "Spain 2026 Special Edition Jersey S-4XL",
-            "thumbnail": "https://photo.yupoo.com/minkang/4c399d2894/small.jpg",
-            "url": "https://minkang.x.yupoo.com/albums/243939774?uid=1&isSubCate=false&referrercate=3118456",
-            "imagenes": [
-                "https://photo.yupoo.com/minkang/07f95bfcd3/small.jpg",
-                "https://photo.yupoo.com/minkang/4c399d2894/small.jpg"
             ],
             "temporada": "2026",
             "tallas": "S-4XL"

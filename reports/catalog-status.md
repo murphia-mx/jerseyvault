@@ -1,12 +1,12 @@
 # Estado del catálogo
 
-Actualizado: 2026-11-10T13:40:40.748Z · Productos: 2852 · En tienda: 2614 · Retirados: 238
+Actualizado: 2026-11-10T22:35:26.716Z · Productos: 2852 · En tienda: 2613 · Retirados: 239
 
 | Estado | Productos | En tienda |
 |---|---:|---:|
-| Sano | 2611 | 2611 |
+| Sano | 2610 | 2610 |
 | Miniatura reparada con otra foto del álbum | 3 | 3 |
-| Álbum eliminado en Yupoo (pendiente de confirmar a las 24 h) | 0 | 0 |
+| Álbum eliminado en Yupoo (pendiente de confirmar a las 24 h) | 1 | 0 |
 | Álbum sin ninguna foto válida (pendiente de confirmar a las 24 h) | 0 | 0 |
 | No disponible (confirmado en 2 revisiones) | 238 | 0 |
 | Error temporal (se reintentará; sigue visible) | 0 | 0 |
@@ -14,7 +14,7 @@ Actualizado: 2026-11-10T13:40:40.748Z · Productos: 2852 · En tienda: 2614 · R
 
 ## Última ejecución
 
-Resultado: **ok** · Revisados: 250/250 · Peticiones: 500 · Problemas nuevos: 0 · Confirmados: 0 · Reparados: 0 · Restaurados: 0 · Retirados: 0 · Retiradas suspendidas: 0
+Resultado: **ok** · Revisados: 250/250 · Peticiones: 500 · Problemas nuevos: 1 · Confirmados: 0 · Reparados: 0 · Restaurados: 0 · Retirados: 1 · Retiradas suspendidas: 0
 
 
 ## Productos afectados
@@ -24,6 +24,7 @@ Resultado: **ok** · Revisados: 250/250 · Peticiones: 500 · Problemas nuevos: 
 | 378 | 244521615 | Barcelona 26/27 Third Away Jersey S-4XL | Miniatura reparada con otra foto del álbum | Sí | 2026-10-20T10:14:42.351Z | http_404 |
 | 379 | 243939221 | Barcelona 26/27 Third Away Player Version Jersey S-4XL | Miniatura reparada con otra foto del álbum | Sí | 2026-10-20T10:14:07.679Z | http_404 |
 | 1207 | 244623738 | RC Lens 26/27 Home Jersey S-4XL | Miniatura reparada con otra foto del álbum | Sí | 2026-10-16T06:36:00.232Z | http_404 |
+| 2481 | 243939774 | Spain 2026 Special Edition Jersey S-4XL | Álbum eliminado en Yupoo (pendiente de confirmar a las 24 h) | No | 2026-11-10T22:24:50.976Z | album_deleted |
 | 1 | 229872934 | Augsburg 25/26 Fourth Away Jersey S-4XL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T06:28:21.328Z | album_deleted |
 | 2 | 229873009 | Augsburg 25/26 Special Edition Navy Blue Jersey S-4XL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T06:28:23.053Z | album_deleted |
 | 3 | 223115736 | Augsburg 25/26 Third Away Jersey S-4XL | No disponible (confirmado en 2 revisiones) | No | 2026-10-16T06:22:12.970Z | album_deleted |
