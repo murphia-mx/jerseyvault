@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-22T22:40:04.141Z",
+  "generatedAt": "2026-11-23T16:13:53.684Z",
   "totalProducts": 2852,
   "visibleProducts": 2613,
   "byStatus": {
-    "ok": 2610,
-    "repaired": 3,
+    "ok": 2609,
+    "repaired": 4,
     "suspect_deleted": 0,
     "suspect_no_images": 0,
     "unavailable": 239,
@@ -12,8 +12,8 @@
     "unchecked": 0
   },
   "visibleByStatus": {
-    "ok": 2610,
-    "repaired": 3,
+    "ok": 2609,
+    "repaired": 4,
     "suspect_deleted": 0,
     "suspect_no_images": 0,
     "unavailable": 0,
@@ -21,18 +21,19 @@
     "unchecked": 0
   },
   "lastRun": {
-    "startedAt": "2026-11-22T22:28:20.196Z",
-    "finishedAt": "2026-11-22T22:40:04.141Z",
+    "startedAt": "2026-11-23T15:59:25.067Z",
+    "finishedAt": "2026-11-23T16:13:53.684Z",
     "outcome": "ok",
     "selected": 250,
     "checked": 250,
-    "requests": 500,
+    "requests": 501,
     "observations": {
-      "exists_valid": 250
+      "exists_valid": 249,
+      "exists_broken": 1
     },
     "newProblems": 0,
     "confirmed": 0,
-    "repaired": 0,
+    "repaired": 1,
     "restored": 0,
     "hidden": 0,
     "suspendedHides": 0
@@ -1855,6 +1856,15 @@
       "visible": false,
       "since": "2026-10-16T05:44:40.849Z",
       "detail": "album_deleted"
+    },
+    {
+      "id": 2021,
+      "albumId": "188798968",
+      "nombre": "Retro Inter Milan 92/94 third away S-XXL",
+      "status": "repaired",
+      "visible": true,
+      "since": "2026-11-23T16:13:17.370Z",
+      "detail": "known_placeholder_hash"
     },
     {
       "id": 2033,
