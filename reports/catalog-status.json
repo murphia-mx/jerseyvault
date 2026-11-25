@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T16:07:46.162Z",
+  "generatedAt": "2026-11-25T01:39:03.158Z",
   "totalProducts": 2852,
   "visibleProducts": 2613,
   "byStatus": {
@@ -21,8 +21,8 @@
     "unchecked": 0
   },
   "lastRun": {
-    "startedAt": "2026-11-24T15:53:55.091Z",
-    "finishedAt": "2026-11-24T16:07:46.162Z",
+    "startedAt": "2026-11-25T01:26:41.932Z",
+    "finishedAt": "2026-11-25T01:39:03.158Z",
     "outcome": "ok",
     "selected": 250,
     "checked": 250,
