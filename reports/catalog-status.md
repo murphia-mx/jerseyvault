@@ -1,6 +1,6 @@
 # Estado del catálogo
 
-Actualizado: 2026-11-26T15:30:06.159Z · Productos: 2852 · En tienda: 2613 · Retirados: 239
+Actualizado: 2026-11-27T01:12:21.511Z · Productos: 2852 · En tienda: 2613 · Retirados: 239
 
 | Estado | Productos | En tienda |
 |---|---:|---:|
